@@ -1,7 +1,8 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUpRight, Award, Briefcase, ChevronLeft, ChevronRight, GraduationCap, Mail, Quote, Target } from "lucide-react";
 import { useEffect, useState } from "react";
-import type { ProfileData, Project } from "../lib/schema";
+import type { ProfileData } from "../lib/schema";
+import { projectHref } from "../lib/schema";
 import { formatDate } from "../lib/xp";
 import { contactIcon } from "../lib/icons";
 import { Chip, Cover, Modal, Reveal } from "../components/ui";
@@ -9,65 +10,35 @@ import { Chip, Cover, Modal, Reveal } from "../components/ui";
 /* ------------------------------- Projects ------------------------------- */
 
 export function Projects({ data }: { data: ProfileData }) {
-  const [open, setOpen] = useState<Project | null>(null);
   const sorted = [...data.projects].sort((a, b) => Number(b.featured) - Number(a.featured));
   return (
-    <>
-      <div className="grid gap-5 md:grid-cols-2">
-        {sorted.map((p, i) => (
-          <Reveal key={p.title} delay={i * 0.05}>
-            <motion.button
-              whileHover={{ y: -6 }}
-              onClick={() => setOpen(p)}
-              className={`glass group flex h-full w-full flex-col overflow-hidden rounded-3xl text-left ${p.featured ? "glow-border" : ""}`}
-            >
-              <div className="h-44 overflow-hidden">
-                <Cover color="var(--accent)" emoji={p.emoji ?? "🚀"} image={p.image} />
-              </div>
-              <div className="flex flex-1 flex-col p-6">
-                <div className="flex items-center justify-between">
-                  <h3 className="font-display text-xl font-semibold">{p.title}</h3>
-                  <ArrowUpRight size={18} className="text-muted transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent" />
-                </div>
-                <p className="mt-2 text-sm text-muted">{p.summary}</p>
-                <div className="mt-auto flex flex-wrap gap-1.5 pt-5">
-                  {p.tags.map((t) => (
-                    <Chip key={t}>{t}</Chip>
-                  ))}
-                </div>
-              </div>
-            </motion.button>
-          </Reveal>
-        ))}
-      </div>
-      <Modal open={!!open} onClose={() => setOpen(null)}>
-        {open && (
-          <div>
-            <div className="h-52">
-              <Cover color="var(--accent)" emoji={open.emoji ?? "🚀"} image={open.image} />
+    <div className="grid gap-5 md:grid-cols-2">
+      {sorted.map((p, i) => (
+        <Reveal key={p.title} delay={i * 0.05}>
+          <motion.a
+            whileHover={{ y: -6 }}
+            href={projectHref(p)}
+            className={`glass group flex h-full w-full flex-col overflow-hidden rounded-3xl text-left ${p.featured ? "glow-border" : ""}`}
+          >
+            <div className="h-44 overflow-hidden">
+              <Cover color="var(--accent)" emoji={p.emoji ?? "🚀"} image={p.image} />
             </div>
-            <div className="p-6 sm:p-8">
-              {open.date && <p className="text-xs uppercase tracking-wider text-muted">{formatDate(open.date)}</p>}
-              <h3 className="mt-1 font-display text-3xl font-bold">{open.title}</h3>
-              <p className="mt-2 text-lg text-muted">{open.summary}</p>
-              <p className="mt-4 leading-relaxed">{open.description}</p>
-              <div className="mt-5 flex flex-wrap gap-2">
-                {open.tags.map((t) => (
+            <div className="flex flex-1 flex-col p-6">
+              <h3 className="font-display text-xl font-semibold">{p.title}</h3>
+              <p className="mt-2 text-sm text-muted">{p.summary}</p>
+              <div className="mt-auto flex flex-wrap gap-1.5 pt-5">
+                {p.tags.map((t) => (
                   <Chip key={t}>{t}</Chip>
                 ))}
               </div>
-              <div className="mt-6 flex flex-wrap gap-3">
-                {open.links.map((l) => (
-                  <a key={l.url + l.label} href={l.url} target="_blank" rel="noreferrer" className="bg-gradient inline-flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-semibold text-white">
-                    {l.label} <ArrowUpRight size={14} />
-                  </a>
-                ))}
-              </div>
+              <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent">
+                View details <ArrowUpRight size={16} className="transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+              </span>
             </div>
-          </div>
-        )}
-      </Modal>
-    </>
+          </motion.a>
+        </Reveal>
+      ))}
+    </div>
   );
 }
 

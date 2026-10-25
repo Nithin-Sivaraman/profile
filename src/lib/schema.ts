@@ -120,6 +120,8 @@ export const profileSchema = z.object({
   projects: z
     .array(
       z.object({
+        /** URL slug for the detail page; defaults to a slug of the title. */
+        id: z.string().optional(),
         title: z.string(),
         summary: z.string().default(""),
         description: z.string().default(""),
@@ -129,6 +131,9 @@ export const profileSchema = z.object({
         emoji: z.string().optional(),
         links: z.array(link).default([]),
         featured: z.boolean().default(false),
+        /** "What I did": shown as a list on the detail page. */
+        contributions: z.array(z.string()).default([]),
+        photos: z.array(z.object({ src: z.string(), caption: z.string().default("") })).default([]),
       }),
     )
     .default([]),
@@ -190,6 +195,12 @@ export const profileSchema = z.object({
 export type ProfileData = z.infer<typeof profileSchema>;
 export type Achievement = ProfileData["achievements"][number];
 export type Project = ProfileData["projects"][number];
+
+export function projectSlug(p: Project): string {
+  return p.id ?? p.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+export const projectHref = (p: Project) => `#/projects/${projectSlug(p)}`;
 
 export const DEFAULT_SECTIONS: { id: SectionId; title: string; subtitle: string }[] = [
   { id: "about", title: "About me", subtitle: "The person behind the trophies" },

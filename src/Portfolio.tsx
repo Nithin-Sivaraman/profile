@@ -34,6 +34,12 @@ export function Portfolio({ data, theme, onToggleTheme, banner }: { data: Profil
   const sections = useMemo(() => resolveSections(data).filter((s) => hasContent(s.id, data)), [data]);
   const openAchievement = useCallback((a: Achievement) => setDetail(a), []);
 
+  // Coming back from a detail page with "#section": the section only exists after this render, so scroll to it here.
+  useEffect(() => {
+    const id = location.hash.slice(1);
+    if (id && !id.startsWith("/")) requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView());
+  }, []);
+
   useEffect(() => {
     document.title = data.site.title ?? `${data.profile.name} · Portfolio`;
     const onKey = (e: KeyboardEvent) => {

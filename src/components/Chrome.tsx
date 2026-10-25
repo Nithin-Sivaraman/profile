@@ -2,6 +2,7 @@ import { AnimatePresence, motion, useScroll, useSpring } from "framer-motion";
 import { Award, Command, FolderKanban, Hash, Lock, Menu, Moon, Pencil, Search, Sun, Trophy, X, Zap } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Achievement, ProfileData } from "../lib/schema";
+import { projectHref } from "../lib/schema";
 import { categoryMeta, formatDate } from "../lib/xp";
 
 type Sec = { id: string; title: string };
@@ -169,7 +170,7 @@ export function CommandPalette({
         icon: Trophy,
         run: () => onOpenAchievement(a),
       })),
-      ...data.projects.map((p) => ({ kind: "Project", title: p.title, sub: p.summary, icon: FolderKanban, run: go("projects") })),
+      ...data.projects.map((p) => ({ kind: "Project", title: p.title, sub: p.summary, icon: FolderKanban, run: () => (location.hash = projectHref(p)) })),
       ...data.skills.map((s) => ({ kind: "Skill", title: s.name, sub: `${s.category} · ${s.level}/100`, icon: Zap, run: go("skills") })),
       ...data.certifications.map((c) => ({ kind: "Certification", title: c.title, sub: c.issuer, icon: Award, run: go("certifications") })),
     ];

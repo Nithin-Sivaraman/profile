@@ -2,6 +2,7 @@ import { AlertTriangle, Pencil, X } from "lucide-react";
 import { lazy, Suspense, useEffect, useState } from "react";
 import { useProfile } from "./lib/data";
 import { Portfolio } from "./Portfolio";
+import { ProjectPage } from "./ProjectPage";
 import { portfolioUrl } from "./lib/data";
 
 const Studio = lazy(() => import("./Studio").then((m) => ({ default: m.Studio })));
@@ -116,6 +117,9 @@ export default function App() {
       </div>
     </div>
   ) : null;
+
+  if (route.startsWith("/projects/"))
+    return <ProjectPage data={state.data} slug={decodeURIComponent(route.slice("/projects/".length))} theme={theme} onToggleTheme={toggleTheme} />;
 
   return <Portfolio data={state.data} theme={theme} onToggleTheme={toggleTheme} banner={banner} />;
 }

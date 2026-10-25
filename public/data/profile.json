@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Nithin Sivaraman | Nuclear Engineering & Physics Interests",
+    "title": "Nithin Sivaraman | Sustainable Energy Through Nuclear Engineering & Physics",
     "theme": {
       "accent": "#2563eb",
       "accent2": "#14b8a6",
@@ -9,13 +9,13 @@
     "sections": [
       {
         "id": "about",
-        "title": "Curiosity into practice",
-        "subtitle": "An interest in nuclear engineering and physics, grounded in research, making, and teaching"
+        "title": "Energy for a better planet",
+        "subtitle": "Studying nuclear engineering and physics to help build sustainable energy for future generations"
       },
       {
         "id": "projects",
         "title": "Research & engineering",
-        "subtitle": "Fusion materials simulation, applied mechanics, and design into fabrication"
+        "subtitle": "Fusion materials, clean-energy science, and design into fabrication"
       },
       {
         "id": "achievements",
@@ -56,7 +56,7 @@
       {
         "id": "contact",
         "title": "Connect",
-        "subtitle": "Conversations about materials research, engineering, and STEM outreach"
+        "subtitle": "Conversations about sustainable energy, materials research, engineering, and STEM outreach"
       }
     ],
     "categories": {
@@ -102,11 +102,11 @@
         "saka.admin@gmail.com"
       ]
     },
-    "footer": "Nuclear engineering & physics interests · Research, design, music, and service"
+    "footer": "Working toward sustainable energy for a healthier planet · Research, design, music, and service"
   },
   "profile": {
     "name": "Nithin Sivaraman",
-    "headline": "Aspiring nuclear engineering or physics student exploring fusion materials through simulation, building with CAD and CNC, and sharing science through community STEM education.",
+    "headline": "Aspiring nuclear engineer and physicist working toward sustainable energy for the world — exploring fusion materials through simulation, building with CAD and CNC, and inspiring the next generation through community STEM education.",
     "roles": [
       "Fusion Materials Research Intern",
       "STEM Club Founder & President",
@@ -116,8 +116,9 @@
     "location": "Rockaway, NJ",
     "school": "The Academy for Math, Science, and Engineering",
     "grade": "Grade 12 · Math, Science & Engineering",
-    "bio": "I'm a student at The Academy for Math, Science, and Engineering in Rockaway, New Jersey, interested in studying nuclear engineering or physics. Working with a professor on simulations involving cubic boron nitride in fusion materials research has given me a way to explore that interest beyond the classroom. In summer 2026, I completed Rutgers Honors Engineering eXperience (RHEx) and NC State University’s Young Investigators’ Summer Program in Nuclear Engineering. My preparation includes AP Physics C in mechanics and electricity and magnetism, AP Calculus BC, and practical experience designing assemblies in CAD and producing parts on CNC machines. I'm also interested in electrical and mechanical engineering as related paths for applying physics through design and fabrication. As founder and president of a community STEM club, I design hands-on lessons that connect science to things children can observe. Alongside this work, I sing, play saxophone and flute, and contribute to my community through music and service.",
+    "bio": "My goal is to help create sustainable energy for the world and protect our planet, so that Earth is a better place for future generations. I'm a student at The Academy for Math, Science, and Engineering in Rockaway, New Jersey, and I plan to study nuclear engineering or physics because I see clean, reliable energy, including fusion, as one of the most important ways to get there. Working with a professor on simulations involving cubic boron nitride in fusion materials research has let me contribute to that goal beyond the classroom. In summer 2026, I completed Rutgers Honors Engineering eXperience (RHEx) and NC State University’s Young Investigators’ Summer Program in Nuclear Engineering. My preparation includes AP Physics C in mechanics and electricity and magnetism, AP Calculus BC, and practical experience designing assemblies in CAD and producing parts on CNC machines. I'm also interested in electrical and mechanical engineering as related paths for turning physics into real energy solutions. As founder and president of a community STEM club, I design hands-on lessons that connect science to things children can observe, because the next generation will carry this work forward. Alongside this work, I sing, play saxophone and flute, and contribute to my community through music and service.",
     "funFacts": [
+      "Mission: help create sustainable energy for the world and protect Earth for future generations.",
       "Research: working with a professor on simulations involving cubic boron nitride for fusion materials research.",
       "Summer 2026: earned certificates of completion for NC State’s nuclear engineering summer program and Rutgers Honors Engineering eXperience (RHEx).",
       "Engineering: led catapult design and calibration as an event captain; one team catapult earned third place for accuracy at the 2025 NJAAPT Physics Olympics.",
@@ -125,6 +126,8 @@
       "Music: six years with the New Jersey Youth Chorus, with performances at Carnegie Hall, NJPAC, and MetLife Stadium."
     ],
     "interests": [
+      "Sustainable energy",
+      "Fusion energy",
       "Nuclear engineering",
       "Physics",
       "Fusion materials",
@@ -250,8 +253,8 @@
     {
       "title": "Fusion materials: cubic boron nitride",
       "emoji": "⚛️",
-      "summary": "Research internship exploring cubic boron nitride through simulation.",
-      "description": "Working with a professor on simulations involving cubic boron nitride in fusion materials research. This ongoing internship connects my interest in studying nuclear engineering or physics with materials science and computational investigation.",
+      "summary": "Research internship exploring cubic boron nitride through simulation for fusion energy.",
+      "description": "Working with a professor on simulations involving cubic boron nitride in fusion materials research. Fusion could provide clean, abundant energy, but it needs materials that can withstand extreme conditions. This ongoing internship connects my goal of sustainable energy for the world with materials science and computational investigation.",
       "tags": [
         "Simulation",
         "Materials science",
@@ -263,7 +266,7 @@
       "title": "NC State: nuclear engineering summer program",
       "emoji": "⚛️",
       "summary": "Completed NC State University’s three-week Young Investigators’ Summer Program in Nuclear Engineering in July 2026.",
-      "description": "Attended the Young Investigators’ Summer Program in Nuclear Engineering at NC State University, July 6–24, 2026. The residential program’s curriculum included expert-led lectures and labs covering nuclear energy, radiation detection, nuclear security, waste management, and industrial plasmas, alongside a small-group project and industrial field trips. This experience complements my fusion materials research and my interest in studying nuclear engineering or physics. Received a certificate of completion.",
+      "description": "Attended the Young Investigators’ Summer Program in Nuclear Engineering at NC State University, July 6–24, 2026. The residential program’s curriculum included expert-led lectures and labs covering nuclear energy, radiation detection, nuclear security, waste management, and industrial plasmas, alongside a small-group project and industrial field trips. This experience deepened my understanding of how nuclear energy can be produced safely and responsibly, and complements my fusion materials research and my goal of sustainable energy for the world. Received a certificate of completion.",
       "date": "2026-07-06",
       "tags": [
         "Nuclear engineering",
@@ -276,13 +279,23 @@
           "url": "https://ne.ncsu.edu/2026/02/03/now-accepting-applications-for-the-young-investigators-summer-program-in-nuclear-engineering/"
         }
       ],
-      "featured": true
+      "featured": true,
+      "id": "ncstate-nuclear-engineering",
+      "contributions": [
+        "Team project — Light Sensitive Monitor for the PULSTAR reactor: worked in a four-person team on the program's design challenge — build a probe housing a photosensor system that measures the light emitted by NC State's 1 MW PULSTAR research reactor and uses it to determine an unknown reactor power output within 2.5% accuracy.",
+        "Researched and presented the background science: how neutrons trigger a fission chain reaction in uranium-235, why unbalanced isotopes are unstable, and how U-235 fission products release beta-minus radiation (high-speed electrons).",
+        "Explained Cherenkov radiation — the blue glow (about 400–490 nm) produced when beta particles travel through the reactor pool water faster than light does in water (about 0.75c), visible in PULSTAR from roughly 100 kW.",
+        "Applied the key relationship behind the design: reactor power is proportional to Cherenkov light intensity, which is proportional to the photosensor's voltage output, so the measured voltage can be used to calculate reactor power.",
+        "Worked to the design criteria: a structurally sound probe on a limited budget, a PVC casing about 10 ft long with 8 ft of wire extending from it, full waterproofing so the reactor pool stays untouched, and a light sensor (photodiode) able to quantify the Cherenkov light.",
+        "Followed the engineering design process from defining the problem and constraints through to the probe design."
+      ],
+      "photos": []
     },
     {
       "title": "Rutgers Honors Engineering eXperience (RHEx)",
       "emoji": "⚙️",
       "summary": "Completed Rutgers School of Engineering’s residential summer program, June 28–July 3, 2026.",
-      "description": "Attended the Rutgers Honors Engineering eXperience (RHEx) in summer 2026. The one-week residential program introduces students to engineering disciplines through faculty-led workshops, hands-on activities, labs, and projects. Its curriculum spans materials science, aerospace, chemical, electrical, and mechanical engineering, including control systems and automation. This experience complements my interest in nuclear engineering and physics with exploration of related engineering fields. Received a certificate of completion.",
+      "description": "Attended the Rutgers Honors Engineering eXperience (RHEx) in summer 2026. The one-week residential program introduces students to engineering disciplines through faculty-led workshops, hands-on activities, labs, and projects. Its curriculum spans materials science, aerospace, chemical, electrical, and mechanical engineering, including control systems and automation. This experience broadened my view of how different engineering fields can work together on energy and environmental challenges, complementing my interest in nuclear engineering and physics. Received a certificate of completion.",
       "date": "2026-06-28",
       "tags": [
         "Rutgers University",
@@ -295,7 +308,15 @@
           "url": "https://soe.rutgers.edu/RHEX"
         }
       ],
-      "featured": true
+      "featured": true,
+      "contributions": [
+        "Group symposium presentation: worked in a five-person team (Group 12) to prepare and present an end-of-program engineering presentation covering five disciplines: materials science, aerospace, chemical, electrical, and mechanical engineering.",
+        "Materials science: explained why materials science is at the heart of advanced technology — every new innovation needs new materials, which are developed by adding elements, heat treatment, chemical exposure, irradiation, and deformation.",
+        "Aerospace engineering: showed how drones fly safely and autonomously using guidance (GPS), navigation (inertial measurement unit), and control, with feedback loops that let a drone correct itself in real time, and how battery capacity, motor efficiency, and weight affect flight time.",
+        "Chemical engineering: explored how computing helps design useful materials and chemical systems, including AlphaFold2 for predicting protein structures from amino-acid sequences and virtual reality for visualizing and simulating molecules.",
+        "Electrical engineering: explained PID (proportional-integral-derivative) feedback control, which lets systems such as autonomous vehicles and wind turbines sense, adapt, and respond reliably, and how differential-equation simulations are used to test them.",
+        "Mechanical engineering: reflected on building automata, including where design inspiration came from and the best practices the team learned."
+      ]
     },
     {
       "title": "Catapult engineering & calibration",
@@ -314,7 +335,7 @@
       "title": "Community STEM: learning by doing",
       "emoji": "🧪",
       "summary": "Founded a club and designed hands-on science lessons for children.",
-      "description": "Founded and lead a community STEM club that introduces children to science through hands-on experiences. I design lessons that connect scientific concepts with observable phenomena, giving students a concrete way to engage with what they are learning.",
+      "description": "Founded and lead a community STEM club that introduces children to science through hands-on experiences. I design lessons that connect scientific concepts with observable phenomena, giving students a concrete way to engage with what they are learning. Inspiring young scientists matters to me because protecting the planet will take the next generation's curiosity and ideas too.",
       "tags": [
         "Curriculum",
         "Teaching",
