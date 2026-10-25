@@ -161,7 +161,7 @@ export function Hero({ data, onOpenAchievement, onSearch }: { data: ProfileData;
 
           <div className="mt-9 flex flex-wrap gap-3">
             <a href="#achievements" className="bg-gradient inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-accent/30 transition hover:scale-[1.03]">
-              See my trophies <ArrowUpRight size={16} />
+              Research and Engineering <ArrowUpRight size={16} />
             </a>
             <button onClick={() => window.print()} className="glass inline-flex items-center gap-2 rounded-full px-5 py-3 text-sm font-semibold transition hover:scale-[1.03]">
               <Printer size={16} /> Résumé
