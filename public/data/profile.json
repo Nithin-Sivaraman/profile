@@ -28,6 +28,12 @@
         "subtitle": "Academic preparation and sustained contributions beyond the classroom"
       },
       {
+        "id": "gallery",
+        "enabled": true,
+        "title": "Music & service",
+        "subtitle": "Chorus, Carnatic music, marching band, and giving back through Zooming thru Music"
+      },
+      {
         "id": "certifications",
         "enabled": false,
         "title": "Certificates of completion",
@@ -47,10 +53,6 @@
       },
       {
         "id": "testimonials",
-        "enabled": false
-      },
-      {
-        "id": "gallery",
         "enabled": false
       },
       {
@@ -289,7 +291,25 @@
         "Worked to the design criteria: a structurally sound probe on a limited budget, a PVC casing about 10 ft long with 8 ft of wire extending from it, full waterproofing so the reactor pool stays untouched, and a light sensor (photodiode) able to quantify the Cherenkov light.",
         "Followed the engineering design process from defining the problem and constraints through to the probe design."
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "images/photos/ncstate/pulstar-cherenkov-glow.jpg",
+          "caption": "The blue Cherenkov glow inside NC State's PULSTAR reactor pool, the light our monitor was designed to measure."
+        },
+        {
+          "src": "images/photos/ncstate/reactor-lab.jpg",
+          "caption": "Taking notes during a hands-on session at the reactor facility."
+        },
+        {
+          "src": "images/photos/ncstate/presentation.jpg",
+          "caption": "Expert-led lecture on the nuclear fuel cycle."
+        },
+        {
+          "src": "images/photos/ncstate/group.jpg",
+          "caption": "The 2026 Young Investigators' Summer Program cohort."
+        }
+      ],
+      "image": "images/photos/ncstate/pulstar-cherenkov-glow.jpg"
     },
     {
       "title": "Rutgers Honors Engineering eXperience (RHEx)",
@@ -316,6 +336,17 @@
         "Chemical engineering: explored how computing helps design useful materials and chemical systems, including AlphaFold2 for predicting protein structures from amino-acid sequences and virtual reality for visualizing and simulating molecules.",
         "Electrical engineering: explained PID (proportional-integral-derivative) feedback control, which lets systems such as autonomous vehicles and wind turbines sense, adapt, and respond reliably, and how differential-equation simulations are used to test them.",
         "Mechanical engineering: reflected on building automata, including where design inspiration came from and the best practices the team learned."
+      ],
+      "image": "images/photos/rutgers/symposium-presentation.jpg",
+      "photos": [
+        {
+          "src": "images/photos/rutgers/symposium-presentation.jpg",
+          "caption": "Group 12 presenting the electrical engineering section at the RHEx symposium."
+        },
+        {
+          "src": "images/photos/rutgers/rhex-cohort.jpg",
+          "caption": "The RHEx 2026 cohort at Rutgers School of Engineering."
+        }
       ]
     },
     {
@@ -341,7 +372,26 @@
         "Teaching",
         "Outreach"
       ],
-      "featured": true
+      "featured": true,
+      "image": "images/photos/stem/cartesian-diver-lesson.jpg",
+      "photos": [
+        {
+          "src": "images/photos/stem/cartesian-diver-lesson.jpg",
+          "caption": "Teaching a hands-on Cartesian diver lesson on pressure and buoyancy."
+        },
+        {
+          "src": "images/photos/stem/club-with-mayor.jpg",
+          "caption": "STEM club students and leaders with the mayor after a lesson on refraction."
+        },
+        {
+          "src": "images/photos/stem/leaders-with-mayor.jpg",
+          "caption": "Club leaders with the mayor."
+        },
+        {
+          "src": "images/photos/stem/experiment-with-water.jpg",
+          "caption": "Club leaders after an \"Experiment with Water!\" session."
+        }
+      ]
     },
     {
       "title": "CAD to CNC: design into fabrication",
@@ -459,5 +509,46 @@
   ],
   "goals": [],
   "testimonials": [],
-  "gallery": []
+  "gallery": [
+    {
+      "src": "images/photos/music/njyc-carnegie-hall.jpg",
+      "caption": "Performing with the New Jersey Youth Chorus at Carnegie Hall."
+    },
+    {
+      "src": "images/photos/music/carnatic-flute.jpg",
+      "caption": "Carnatic flute performance."
+    },
+    {
+      "src": "images/photos/music/ztm-toy-drive.jpg",
+      "caption": "Zooming thru Music toy drive for St. Joseph's Children's Hospital."
+    },
+    {
+      "src": "images/photos/music/marching-band-metlife.jpg",
+      "caption": "Marching band performance at MetLife Stadium."
+    },
+    {
+      "src": "images/photos/music/carnatic-singing.jpg",
+      "caption": "Carnatic vocal performance."
+    },
+    {
+      "src": "images/photos/music/ztm-benefit-concert.jpg",
+      "caption": "Zooming thru Music benefit concert."
+    },
+    {
+      "src": "images/photos/music/njyc-carnegie-hall-2.jpg",
+      "caption": "New Jersey Youth Chorus on stage at Carnegie Hall."
+    },
+    {
+      "src": "images/photos/music/marching-band-disney-parade.jpg",
+      "caption": "Marching in a parade at Walt Disney World with the high school band."
+    },
+    {
+      "src": "images/photos/music/ztm-holiday-team.jpg",
+      "caption": "The Zooming thru Music team at the holiday toy delivery."
+    },
+    {
+      "src": "images/photos/music/marching-band-metlife-2.jpg",
+      "caption": "Marching band field show at MetLife Stadium."
+    }
+  ]
 }

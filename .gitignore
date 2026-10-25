@@ -3,3 +3,5 @@ dist
 .DS_Store
 *.tsbuildinfo
 .claude
+# Original photos and videos (web-sized copies live in public/images/photos)
+public/images/projects/

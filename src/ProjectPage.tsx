@@ -97,10 +97,13 @@ export function ProjectPage({ data, slug, theme, onToggleTheme }: { data: Profil
               <section className="mt-12">
                 <h2 className="font-display text-2xl font-semibold">Project photos</h2>
                 {project.photos.length > 0 ? (
-                  <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                  // Masonry columns keep each photo's own shape, so portrait shots aren't cropped.
+                  <div className="mt-4 columns-1 gap-4 sm:columns-2">
                     {project.photos.map((ph) => (
-                      <figure key={ph.src} className="glass overflow-hidden rounded-2xl">
-                        <img src={ph.src} alt={ph.caption} loading="lazy" className="aspect-[4/3] w-full object-cover" />
+                      <figure key={ph.src} className="glass mb-4 break-inside-avoid overflow-hidden rounded-2xl">
+                        <a href={ph.src} target="_blank" rel="noreferrer" title="Open full size">
+                          <img src={ph.src} alt={ph.caption} loading="lazy" className="w-full transition duration-500 hover:scale-[1.02]" />
+                        </a>
                         {ph.caption && <figcaption className="p-3 text-sm text-muted">{ph.caption}</figcaption>}
                       </figure>
                     ))}
