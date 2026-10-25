@@ -93,7 +93,7 @@ export function Portfolio({ data, theme, onToggleTheme, banner }: { data: Profil
           ))}
         </main>
         <footer className="mx-auto max-w-6xl px-6 pb-12 pt-8 text-center text-xs text-muted">
-          © {new Date().getFullYear()} {data.profile.name} · {data.site.footer ?? "Made with Talentfolio"}
+          © {new Date().getFullYear()} {data.profile.name} · {data.site.footer ?? "Portfolio"}
         </footer>
         <CommandPalette open={palette} onClose={() => setPalette(false)} data={data} sections={sections} onOpenAchievement={openAchievement} />
         <AchievementDetail a={detail} data={data} onClose={() => setDetail(null)} />

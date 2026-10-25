@@ -1,4 +1,6 @@
-# Talentfolio
+# Nithin Sivaraman · Profile
+
+Live site: https://nithin-sivaraman.github.io/profile/
 
 A student showcase that is driven entirely by JSON. You record the facts (awards, projects, skills) and the app builds the portfolio around them: a trophy wall, XP and levels, badges, a skill constellation and a printable résumé.
 
