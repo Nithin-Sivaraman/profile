@@ -1,0 +1,442 @@
+{
+  "site": {
+    "title": "Nithin Sivaraman | Nuclear Engineering & Physics Interests",
+    "theme": {
+      "accent": "#2563eb",
+      "accent2": "#14b8a6",
+      "mode": "auto"
+    },
+    "sections": [
+      {
+        "id": "about",
+        "title": "Curiosity into practice",
+        "subtitle": "An interest in nuclear engineering and physics, grounded in research, making, and teaching"
+      },
+      {
+        "id": "projects",
+        "title": "Research & engineering",
+        "subtitle": "Fusion materials simulation, applied mechanics, and design into fabrication"
+      },
+      {
+        "id": "achievements",
+        "title": "Selected honors & program completion",
+        "subtitle": "Competition recognition and certificates from university summer programs"
+      },
+      {
+        "id": "journey",
+        "title": "Education, leadership & service",
+        "subtitle": "Academic preparation and sustained contributions beyond the classroom"
+      },
+      {
+        "id": "certifications",
+        "enabled": false,
+        "title": "Certificates of completion",
+        "subtitle": "Summer 2026 programs in nuclear engineering and engineering exploration"
+      },
+      {
+        "id": "skills",
+        "enabled": false
+      },
+      {
+        "id": "level",
+        "enabled": false
+      },
+      {
+        "id": "goals",
+        "enabled": false
+      },
+      {
+        "id": "testimonials",
+        "enabled": false
+      },
+      {
+        "id": "gallery",
+        "enabled": false
+      },
+      {
+        "id": "contact",
+        "title": "Connect",
+        "subtitle": "Conversations about materials research, engineering, and STEM outreach"
+      }
+    ],
+    "categories": {
+      "science": {
+        "label": "Physics & Research",
+        "emoji": "🔬",
+        "color": "#2563eb"
+      },
+      "engineering": {
+        "label": "Engineering",
+        "emoji": "⚙️",
+        "color": "#0ea5e9"
+      },
+      "music": {
+        "label": "Music",
+        "emoji": "🎼",
+        "color": "#f59e0b"
+      },
+      "leadership": {
+        "label": "Leadership",
+        "emoji": "🧭",
+        "color": "#10b981"
+      },
+      "service": {
+        "label": "Service",
+        "emoji": "🤝",
+        "color": "#8b5cf6"
+      },
+      "academics": {
+        "label": "Academics",
+        "emoji": "📚",
+        "color": "#6366f1"
+      }
+    },
+    "gamification": {
+      "enabled": false
+    },
+    "auth": {
+      "enabled": true,
+      "provider": "google",
+      "clientId": "",
+      "allowedEmails": [
+        "saka.admin@gmail.com"
+      ]
+    },
+    "footer": "Nuclear engineering & physics interests · Research, design, music, and service"
+  },
+  "profile": {
+    "name": "Nithin Sivaraman",
+    "headline": "Aspiring nuclear engineering or physics student exploring fusion materials through simulation, building with CAD and CNC, and sharing science through community STEM education.",
+    "roles": [
+      "Fusion Materials Research Intern",
+      "STEM Club Founder & President",
+      "Physics Olympics Event Captain",
+      "Musician & Community Volunteer"
+    ],
+    "location": "Rockaway, NJ",
+    "school": "The Academy for Math, Science, and Engineering",
+    "grade": "Grade 12 · Math, Science & Engineering",
+    "bio": "I'm a student at The Academy for Math, Science, and Engineering in Rockaway, New Jersey, interested in studying nuclear engineering or physics. Working with a professor on simulations involving cubic boron nitride in fusion materials research has given me a way to explore that interest beyond the classroom. In summer 2026, I completed Rutgers Honors Engineering eXperience (RHEx) and NC State University’s Young Investigators’ Summer Program in Nuclear Engineering. My preparation includes AP Physics C in mechanics and electricity and magnetism, AP Calculus BC, and practical experience designing assemblies in CAD and producing parts on CNC machines. I'm also interested in electrical and mechanical engineering as related paths for applying physics through design and fabrication. As founder and president of a community STEM club, I design hands-on lessons that connect science to things children can observe. Alongside this work, I sing, play saxophone and flute, and contribute to my community through music and service.",
+    "funFacts": [
+      "Research: working with a professor on simulations involving cubic boron nitride for fusion materials research.",
+      "Summer 2026: earned certificates of completion for NC State’s nuclear engineering summer program and Rutgers Honors Engineering eXperience (RHEx).",
+      "Engineering: led catapult design and calibration as an event captain; one team catapult earned third place for accuracy at the 2025 NJAAPT Physics Olympics.",
+      "Service: helped raise more than $1,000 in toys for St. Joseph's Children's Hospital through Zooming thru Music.",
+      "Music: six years with the New Jersey Youth Chorus, with performances at Carnegie Hall, NJPAC, and MetLife Stadium."
+    ],
+    "interests": [
+      "Nuclear engineering",
+      "Physics",
+      "Fusion materials",
+      "Materials science",
+      "Electrical engineering",
+      "Mechanical engineering",
+      "STEM education",
+      "Carnatic & ensemble music"
+    ],
+    "contacts": []
+  },
+  "skills": [
+    {
+      "name": "AP Physics C: Mechanics",
+      "category": "Physics & Math",
+      "level": 85
+    },
+    {
+      "name": "AP Physics C: E&M",
+      "category": "Physics & Math",
+      "level": 80
+    },
+    {
+      "name": "AP Calculus BC",
+      "category": "Physics & Math",
+      "level": 85
+    },
+    {
+      "name": "Materials simulation",
+      "category": "Physics & Math",
+      "level": 65
+    },
+    {
+      "name": "Onshape",
+      "category": "Design & Making",
+      "level": 80
+    },
+    {
+      "name": "AutoCAD",
+      "category": "Design & Making",
+      "level": 75
+    },
+    {
+      "name": "CNC machining",
+      "category": "Design & Making",
+      "level": 70
+    },
+    {
+      "name": "Prototyping",
+      "category": "Design & Making",
+      "level": 75
+    },
+    {
+      "name": "Carnatic vocals",
+      "category": "Music",
+      "level": 75
+    },
+    {
+      "name": "Flute",
+      "category": "Music",
+      "level": 75
+    },
+    {
+      "name": "Saxophone",
+      "category": "Music",
+      "level": 80
+    },
+    {
+      "name": "Choral singing",
+      "category": "Music",
+      "level": 85
+    },
+    {
+      "name": "Teaching & mentoring",
+      "category": "People",
+      "level": 80
+    },
+    {
+      "name": "Team leadership",
+      "category": "People",
+      "level": 80
+    },
+    {
+      "name": "Spanish",
+      "category": "People",
+      "level": 55
+    }
+  ],
+  "achievements": [
+    {
+      "id": "njaapt-2025",
+      "title": "NJAAPT Physics Olympics",
+      "category": "science",
+      "tier": "state",
+      "position": "3rd Place · Catapult accuracy",
+      "date": "2025",
+      "organizer": "New Jersey Association of Physics Teachers",
+      "description": "Served as an event captain in the Modern Physics Club, leading a team in designing, building, and calibrating catapults for the 2025 NJAAPT Physics Olympics. One of our catapults earned third place for accuracy. My contribution centered on team coordination, construction, and calibration.",
+      "tags": [
+        "Catapult",
+        "Team event",
+        "Physics"
+      ],
+      "featured": true
+    },
+    {
+      "id": "usbands-2025",
+      "title": "USBands New Jersey State Championships · Group IV A",
+      "category": "music",
+      "tier": "state",
+      "position": "2nd Place",
+      "date": "2025",
+      "organizer": "USBands",
+      "description": "Played saxophone in the marching band that earned second place in Group IV A at the 2025 USBands New Jersey State Championships. Participated throughout all four years of high school, rehearsing and performing coordinated music and movement with the ensemble.",
+      "tags": [
+        "Marching band",
+        "Saxophone"
+      ],
+      "featured": true
+    }
+  ],
+  "projects": [
+    {
+      "title": "Fusion materials: cubic boron nitride",
+      "emoji": "⚛️",
+      "summary": "Research internship exploring cubic boron nitride through simulation.",
+      "description": "Working with a professor on simulations involving cubic boron nitride in fusion materials research. This ongoing internship connects my interest in studying nuclear engineering or physics with materials science and computational investigation.",
+      "tags": [
+        "Simulation",
+        "Materials science",
+        "Research"
+      ],
+      "featured": true
+    },
+    {
+      "title": "NC State: nuclear engineering summer program",
+      "emoji": "⚛️",
+      "summary": "Completed NC State University’s three-week Young Investigators’ Summer Program in Nuclear Engineering in July 2026.",
+      "description": "Attended the Young Investigators’ Summer Program in Nuclear Engineering at NC State University, July 6–24, 2026. The residential program’s curriculum included expert-led lectures and labs covering nuclear energy, radiation detection, nuclear security, waste management, and industrial plasmas, alongside a small-group project and industrial field trips. This experience complements my fusion materials research and my interest in studying nuclear engineering or physics. Received a certificate of completion.",
+      "date": "2026-07-06",
+      "tags": [
+        "Nuclear engineering",
+        "NC State University",
+        "Summer program · 2026"
+      ],
+      "links": [
+        {
+          "label": "NC State program details",
+          "url": "https://ne.ncsu.edu/2026/02/03/now-accepting-applications-for-the-young-investigators-summer-program-in-nuclear-engineering/"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "title": "Rutgers Honors Engineering eXperience (RHEx)",
+      "emoji": "⚙️",
+      "summary": "Completed Rutgers School of Engineering’s residential summer program, June 28–July 3, 2026.",
+      "description": "Attended the Rutgers Honors Engineering eXperience (RHEx) in summer 2026. The one-week residential program introduces students to engineering disciplines through faculty-led workshops, hands-on activities, labs, and projects. Its curriculum spans materials science, aerospace, chemical, electrical, and mechanical engineering, including control systems and automation. This experience complements my interest in nuclear engineering and physics with exploration of related engineering fields. Received a certificate of completion.",
+      "date": "2026-06-28",
+      "tags": [
+        "Rutgers University",
+        "Engineering exploration",
+        "Summer program · 2026"
+      ],
+      "links": [
+        {
+          "label": "Rutgers program details",
+          "url": "https://soe.rutgers.edu/RHEX"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "title": "Catapult engineering & calibration",
+      "emoji": "🎯",
+      "summary": "Event captain for a team whose catapult earned third place for accuracy.",
+      "description": "Led a group within the Modern Physics Club to design, construct, and calibrate catapults for the 2025 NJAAPT Physics Olympics. The work connected mechanics with a practical engineering task: building a device and calibrating it for accurate launches. One team catapult earned third place for accuracy.",
+      "date": "2025",
+      "tags": [
+        "Design",
+        "Calibration",
+        "Team lead"
+      ],
+      "featured": true
+    },
+    {
+      "title": "Community STEM: learning by doing",
+      "emoji": "🧪",
+      "summary": "Founded a club and designed hands-on science lessons for children.",
+      "description": "Founded and lead a community STEM club that introduces children to science through hands-on experiences. I design lessons that connect scientific concepts with observable phenomena, giving students a concrete way to engage with what they are learning.",
+      "tags": [
+        "Curriculum",
+        "Teaching",
+        "Outreach"
+      ],
+      "featured": true
+    },
+    {
+      "title": "CAD to CNC: design into fabrication",
+      "emoji": "⚙️",
+      "summary": "Designed assemblies and parts using Onshape, AutoCAD, and CNC equipment.",
+      "description": "Create assemblies in Onshape and designs in AutoCAD, then operate CNC machines to produce designed parts. This work connects digital design with physical fabrication and supports my interest in mechanical engineering as another path for applying physics.",
+      "tags": [
+        "Onshape",
+        "AutoCAD",
+        "CNC"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Certificate of Completion · Young Investigators’ Summer Program in Nuclear Engineering",
+      "issuer": "NC State University · Department of Nuclear Engineering",
+      "date": "2026"
+    },
+    {
+      "title": "Certificate of Completion · Rutgers Honors Engineering eXperience (RHEx)",
+      "issuer": "Rutgers University · School of Engineering",
+      "date": "2026"
+    }
+  ],
+  "education": [
+    {
+      "institution": "The Academy for Math, Science, and Engineering · Rockaway, NJ",
+      "program": "Grade 12 · Math, Science & Engineering",
+      "period": "2023 – present",
+      "highlights": [
+        "AP Calculus BC",
+        "AP Physics C: Mechanics",
+        "AP Physics C: Electricity and Magnetism"
+      ]
+    },
+    {
+      "institution": "NC State University · Department of Nuclear Engineering",
+      "program": "Young Investigators’ Summer Program in Nuclear Engineering",
+      "period": "July 6–24, 2026",
+      "highlights": [
+        "Completed the three-week residential nuclear engineering summer program.",
+        "Program curriculum: nuclear energy, radiation detection, nuclear security, waste management, and industrial plasmas.",
+        "Received a certificate of completion."
+      ]
+    },
+    {
+      "institution": "Rutgers University · School of Engineering",
+      "program": "Rutgers Honors Engineering eXperience (RHEx)",
+      "period": "June 28–July 3, 2026",
+      "highlights": [
+        "Completed the one-week residential engineering exploration program.",
+        "Program curriculum: materials science, aerospace, chemical, electrical, and mechanical engineering.",
+        "Received a certificate of completion."
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "role": "Founder & President, STEM Club",
+      "organization": "Local community",
+      "period": "Grades 11–12",
+      "type": "Leadership",
+      "description": "Founded and lead a community STEM club for children. Design hands-on lessons that connect scientific concepts with observable experiences and encourage students to explore STEM."
+    },
+    {
+      "role": "Event Captain, Modern Physics Club",
+      "organization": "The Academy for Math, Science, and Engineering",
+      "period": "Grades 9–12",
+      "type": "Leadership",
+      "description": "Led a team within the Modern Physics Club to build and calibrate competition catapults. One team catapult earned third place for accuracy at the 2025 NJAAPT Physics Olympics."
+    },
+    {
+      "role": "Saxophonist, Marching Band",
+      "organization": "The Academy for Math, Science, and Engineering",
+      "period": "Grades 9–12",
+      "type": "Music",
+      "description": "Play saxophone and collaborate on coordinated ensemble performances at football games and competitions. Four-year participant; the band earned second place in its division at the 2025 USBands New Jersey State Championships."
+    },
+    {
+      "role": "Chorister",
+      "organization": "New Jersey Youth Chorus",
+      "period": "Grades 9–12",
+      "type": "Music",
+      "description": "Sing with the New Jersey Youth Chorus, with six years of participation and performances at NJPAC, MetLife Stadium, and Carnegie Hall. Participated in a combined choir that premiered a new piece at Carnegie Hall."
+    },
+    {
+      "role": "Carnatic music student & performer",
+      "organization": "Temples and local events",
+      "period": "Grades 9–11",
+      "type": "Music",
+      "description": "Study classical Indian music through Carnatic singing and flute. Perform at temples and local events, sustaining a musical practice alongside choral and band commitments."
+    },
+    {
+      "role": "Volunteer, Zooming thru Music",
+      "organization": "Adult care centres & community",
+      "period": "Grades 11–12",
+      "type": "Service",
+      "description": "Performed for isolated audiences at adult care centers. Helped raise more than $1,000 in toys for St. Joseph's Children's Hospital in Paterson, New Jersey, and performed in a benefit concert for Foundabilities, which supports individuals with disabilities."
+    },
+    {
+      "role": "Volunteer",
+      "organization": "Sri Ranganatha Temple",
+      "period": "Grades 10–11",
+      "type": "Service",
+      "description": "Served food and restocked supplies in the temple cafeteria. Also performed flute for religious functions, contributing through both practical service and music."
+    },
+    {
+      "role": "Tutor",
+      "organization": "Eye Level",
+      "period": "Grade 10",
+      "type": "Service",
+      "description": "Tutored elementary school students in math and English using the Eye Level curriculum. Guided students through workbooks and homework to help them work through academic concepts."
+    }
+  ],
+  "goals": [],
+  "testimonials": [],
+  "gallery": []
+}

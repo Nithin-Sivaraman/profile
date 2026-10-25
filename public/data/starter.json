@@ -1,0 +1,18 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "headline": "One sentence about what makes you, you.",
+    "roles": ["Student", "Something you love doing"],
+    "bio": "Replace this with a few lines about yourself."
+  },
+  "achievements": [
+    {
+      "title": "My first achievement",
+      "category": "academic",
+      "tier": "school",
+      "position": "1st Place",
+      "date": "2026-01-15",
+      "description": "What did you do, and what did you learn?"
+    }
+  ]
+}

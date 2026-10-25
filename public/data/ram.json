@@ -1,0 +1,302 @@
+{
+  "site": {
+    "title": "Ram Si · Talentfolio",
+    "theme": { "accent": "#8b5cf6", "accent2": "#22d3ee", "mode": "auto" },
+    "sections": [
+      { "id": "about" },
+      { "id": "level" },
+      { "id": "achievements" },
+      { "id": "skills" },
+      { "id": "projects" },
+      { "id": "journey" },
+      { "id": "certifications" },
+      { "id": "goals" },
+      { "id": "testimonials" },
+      { "id": "gallery" },
+      { "id": "contact", "title": "Let's build something", "subtitle": "Open to internships, hackathons and science fairs" }
+    ],
+    "categories": {
+      "academic": { "label": "Academics", "emoji": "📚", "color": "#6366f1" },
+      "science": { "label": "Science", "emoji": "🔬", "color": "#06b6d4" },
+      "coding": { "label": "Coding", "emoji": "💻", "color": "#8b5cf6" },
+      "sports": { "label": "Sports", "emoji": "🏸", "color": "#f97316" },
+      "arts": { "label": "Arts & Music", "emoji": "🎨", "color": "#ec4899" },
+      "leadership": { "label": "Leadership", "emoji": "🧭", "color": "#10b981" }
+    },
+    "gamification": { "enabled": true },
+    "auth": {
+      "enabled": true,
+      "provider": "google",
+      "clientId": "",
+      "allowedEmails": ["saka.admin@gmail.com"]
+    },
+    "footer": "Built with Talentfolio · every achievement lives in one JSON file"
+  },
+
+  "profile": {
+    "name": "Ram Si",
+    "avatar": "images/avatar-square.jpg",
+    "photo": "images/avatar-portrait.jpg",
+    "headline": "Curious builder, competitive coder and badminton player who likes turning ideas into things people use.",
+    "roles": ["Young Scientist", "Competitive Programmer", "State-level Badminton Player", "Classical Pianist"],
+    "location": "Rockaway, NJ",
+    "school": "Morris Hills High School",
+    "grade": "Grade 11 · Science (PCM + CS)",
+    "bio": "I'm a 16-year-old student who can't stop asking \"what if?\". I spend my week writing code, building small robots, practising badminton at 6 AM and playing Chopin when nobody is listening. I believe the best way to learn something is to build it, break it and build it again, and I love explaining what I learn to younger students.",
+    "funFacts": [
+      "Solved 400+ problems on competitive programming sites",
+      "Can solve a Rubik's cube in under 40 seconds",
+      "Runs a weekend coding club for 25 middle-schoolers"
+    ],
+    "interests": ["Robotics", "Astronomy", "Algorithms", "Piano", "Badminton", "Public speaking"],
+    "availability": "Open to summer research internships · 2027",
+    "email": "saka.admin@gmail.com",
+    "contacts": [
+      { "type": "github", "label": "GitHub", "url": "https://github.com/" },
+      { "type": "linkedin", "label": "LinkedIn", "url": "https://linkedin.com/" },
+      { "type": "youtube", "label": "YouTube", "url": "https://youtube.com/" },
+      { "type": "website", "label": "Blog", "url": "https://example.com/" }
+    ]
+  },
+
+  "skills": [
+    { "name": "Python", "category": "Programming", "level": 90, "since": "2021" },
+    { "name": "C++", "category": "Programming", "level": 80, "since": "2022" },
+    { "name": "JavaScript", "category": "Programming", "level": 70, "since": "2023" },
+    { "name": "Algorithms", "category": "Programming", "level": 82 },
+    { "name": "Arduino", "category": "Science & Making", "level": 78 },
+    { "name": "3D Printing", "category": "Science & Making", "level": 60 },
+    { "name": "Physics", "category": "Science & Making", "level": 85 },
+    { "name": "Mathematics", "category": "Science & Making", "level": 88 },
+    { "name": "Piano", "category": "Creative", "level": 75, "since": "2016" },
+    { "name": "Digital Art", "category": "Creative", "level": 55 },
+    { "name": "Public Speaking", "category": "People", "level": 80 },
+    { "name": "Team Leadership", "category": "People", "level": 76 },
+    { "name": "Teaching", "category": "People", "level": 72 },
+    { "name": "Badminton", "category": "Sports", "level": 84, "since": "2017" },
+    { "name": "Chess", "category": "Sports", "level": 58 }
+  ],
+
+  "achievements": [
+    {
+      "id": "iris-2026",
+      "title": "IRIS National Science Fair: Grand Award",
+      "category": "science",
+      "tier": "national",
+      "position": "1st Place · Engineering",
+      "date": "2026-02-14",
+      "organizer": "IRIS National Fair",
+      "description": "Built 'AquaSense', a ₹900 IoT device that monitors water quality in village tanks and sends SMS alerts when contamination spikes. Tested for 3 months across 4 villages.",
+      "tags": ["IoT", "Arduino", "Social impact"],
+      "featured": true
+    },
+    {
+      "id": "ioi-2026",
+      "title": "Indian National Olympiad in Informatics",
+      "category": "coding",
+      "tier": "national",
+      "position": "Gold · Top 30",
+      "date": "2026-01-20",
+      "organizer": "IARCS",
+      "description": "Qualified for the IOI training camp after placing among the top 30 of 12,000+ participants nationwide.",
+      "tags": ["Algorithms", "C++"],
+      "featured": true
+    },
+    {
+      "id": "apac-hack-2025",
+      "title": "Asia-Pacific Youth Hackathon",
+      "category": "coding",
+      "tier": "international",
+      "position": "2nd Runner-up",
+      "date": "2025-11-08",
+      "organizer": "APAC Youth Tech Forum",
+      "description": "Led a team of 4 to build 'StudyBuddy', an accessibility-first study planner for students with dyslexia, in 36 hours.",
+      "tags": ["React", "Accessibility", "Team lead"],
+      "featured": true
+    },
+    {
+      "id": "badminton-state-2025",
+      "title": "State U-17 Badminton Championship",
+      "category": "sports",
+      "tier": "state",
+      "position": "Silver · Boys' Singles",
+      "date": "2025-09-12",
+      "organizer": "State Badminton Association",
+      "description": "Reached the final after winning 5 straight matches, including a comeback from 11–19 in the semi-final.",
+      "tags": ["Singles"]
+    },
+    {
+      "id": "piano-trinity-2025",
+      "title": "Trinity College London: Grade 7 Piano",
+      "category": "arts",
+      "tier": "international",
+      "position": "Distinction",
+      "date": "2025-06-30",
+      "organizer": "Trinity College London",
+      "description": "Scored 91/100 with distinction; performed Chopin's Nocturne Op. 9 No. 2.",
+      "tags": ["Classical", "Performance"]
+    },
+    {
+      "id": "math-olympiad-2025",
+      "title": "Regional Mathematics Olympiad",
+      "category": "academic",
+      "tier": "state",
+      "position": "1st Place",
+      "date": "2025-03-02",
+      "organizer": "HBCSE",
+      "description": "Top scorer in the region; qualified for INMO.",
+      "tags": ["Olympiad", "Number theory"]
+    },
+    {
+      "id": "district-science-2024",
+      "title": "District Science Exhibition",
+      "category": "science",
+      "tier": "district",
+      "position": "Winner",
+      "date": "2024-12-05",
+      "organizer": "District Education Office",
+      "description": "Demonstrated a solar-powered seed dryer made from recycled materials for local farmers.",
+      "tags": ["Renewable energy"]
+    },
+    {
+      "id": "head-girl-2024",
+      "title": "Elected School Vice-Captain",
+      "category": "leadership",
+      "tier": "school",
+      "position": "Elected",
+      "date": "2024-06-15",
+      "organizer": "Morris Hills High School",
+      "description": "Elected by 1,200 students and staff. Started a peer-tutoring programme that paired 80 students.",
+      "tags": ["Student council"]
+    },
+    {
+      "id": "debate-2024",
+      "title": "Inter-school Debate Championship",
+      "category": "leadership",
+      "tier": "district",
+      "position": "Best Speaker",
+      "date": "2024-02-18",
+      "organizer": "Rotary Club",
+      "description": "Argued for the motion 'AI should be taught from primary school'.",
+      "tags": ["Debate"]
+    },
+    {
+      "id": "art-2023",
+      "title": "National Young Artists Contest",
+      "category": "arts",
+      "tier": "national",
+      "position": "Merit Certificate",
+      "date": "2023-10-01",
+      "organizer": "Ministry of Culture",
+      "description": "Digital illustration 'The City That Breathes' selected among the top 100 entries.",
+      "tags": ["Digital art"]
+    },
+    {
+      "id": "school-coding-2023",
+      "title": "School Coding Cup",
+      "category": "coding",
+      "tier": "school",
+      "position": "1st Place",
+      "date": "2023-08-20",
+      "organizer": "Morris Hills High School",
+      "description": "My first competition win, which started the whole journey.",
+      "tags": ["Python"]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "AquaSense",
+      "emoji": "💧",
+      "summary": "Low-cost IoT water-quality monitor for rural water tanks.",
+      "description": "ESP32 + TDS/turbidity/pH sensors, solar powered, SMS alerts over GSM. Deployed in 4 villages with the help of a local NGO. Won the national science fair grand award.",
+      "date": "2026-01",
+      "tags": ["ESP32", "C++", "IoT", "Solar"],
+      "links": [{ "label": "Report", "url": "https://example.com" }],
+      "featured": true
+    },
+    {
+      "title": "StudyBuddy",
+      "emoji": "📖",
+      "summary": "Accessibility-first study planner for students with dyslexia.",
+      "description": "Dyslexia-friendly fonts, text-to-speech, and a spaced-repetition scheduler. Built at the APAC Youth Hackathon and now used by 300+ students.",
+      "date": "2025-11",
+      "tags": ["React", "TypeScript", "a11y"],
+      "links": [
+        { "label": "Live demo", "url": "https://example.com" },
+        { "label": "Code", "url": "https://github.com/" }
+      ],
+      "featured": true
+    },
+    {
+      "title": "Shuttle Tracker",
+      "emoji": "🏸",
+      "summary": "Computer-vision tool that analyses my badminton footwork.",
+      "description": "Uses OpenCV + MediaPipe on phone video to plot court coverage heatmaps. My coach now uses it with the whole academy.",
+      "date": "2025-07",
+      "tags": ["Python", "OpenCV", "Sports tech"],
+      "links": [{ "label": "Code", "url": "https://github.com/" }]
+    },
+    {
+      "title": "Night Sky Almanac",
+      "emoji": "🔭",
+      "summary": "A tiny web app that tells you what's visible in tonight's sky.",
+      "description": "Pulls ephemeris data and renders an interactive star chart for your location.",
+      "date": "2024-12",
+      "tags": ["JavaScript", "Canvas", "Astronomy"],
+      "links": [{ "label": "Live", "url": "https://example.com" }]
+    }
+  ],
+
+  "certifications": [
+    { "title": "CS50x: Introduction to Computer Science", "issuer": "Harvard / edX", "date": "2024-08", "url": "https://cs50.harvard.edu/" },
+    { "title": "Machine Learning Specialization", "issuer": "Coursera · DeepLearning.AI", "date": "2025-05", "credentialId": "ML-88Q2X" },
+    { "title": "Grade 7 Piano (Distinction)", "issuer": "Trinity College London", "date": "2025-06" },
+    { "title": "First Aid & CPR", "issuer": "Red Cross", "date": "2024-03" }
+  ],
+
+  "education": [
+    {
+      "institution": "Morris Hills High School",
+      "program": "Grade 11 · Science (PCM + Computer Science)",
+      "period": "2025 – present",
+      "score": "Predicted 96%",
+      "highlights": ["School Vice-Captain", "Robotics club lead"]
+    },
+    {
+      "institution": "Morris Hills High School",
+      "program": "Grade 10",
+      "period": "2024 – 2025",
+      "score": "97.4%",
+      "highlights": ["Subject topper: Mathematics & Computer Science"]
+    }
+  ],
+
+  "activities": [
+    { "role": "Founder & Mentor", "organization": "Code Cubs (weekend coding club)", "period": "2024 – present", "type": "Service", "description": "Teaching Scratch and Python to 25 middle-schoolers every Saturday." },
+    { "role": "Vice-Captain", "organization": "Student Council", "period": "2024 – present", "type": "Leadership", "description": "Launched a peer-tutoring programme and a zero-waste canteen drive." },
+    { "role": "Volunteer", "organization": "Clean Rivers Pune", "period": "2023 – present", "type": "Service", "description": "Monthly river-bank clean-ups and water-testing drives." }
+  ],
+
+  "goals": [
+    { "title": "Qualify for the International Olympiad in Informatics", "progress": 65, "target": "2027", "note": "Training camp in progress" },
+    { "title": "Deploy AquaSense to 20 villages", "progress": 20, "target": "Dec 2026" },
+    { "title": "Trinity Grade 8 Piano", "progress": 45, "target": "Jun 2027" },
+    { "title": "National U-19 Badminton ranking", "progress": 30, "target": "2027" }
+  ],
+
+  "testimonials": [
+    { "quote": "Ram is the rare student who asks the second question, the one that makes the whole class stop and think. His AquaSense project showed real engineering maturity.", "author": "Dr. Meera Iyer", "role": "Physics teacher & science fair mentor" },
+    { "quote": "Calm under pressure, generous with his teammates, and relentless about details. He led our hackathon team like a professional.", "author": "Rahul Menon", "role": "Hackathon mentor, APAC Youth Tech Forum" },
+    { "quote": "He trains before sunrise and still shows up to help the juniors. That tells you everything.", "author": "Coach Sunil Rao", "role": "Head coach, Smash Badminton Academy" }
+  ],
+
+  "gallery": [
+    { "src": "images/gallery-1.svg", "caption": "IRIS national fair, Delhi" },
+    { "src": "images/gallery-2.svg", "caption": "36 hours of hacking" },
+    { "src": "images/gallery-3.svg", "caption": "State finals, Nagpur" },
+    { "src": "images/gallery-4.svg", "caption": "Annual recital" },
+    { "src": "images/gallery-5.svg", "caption": "Code Cubs graduation day" },
+    { "src": "images/gallery-6.svg", "caption": "River clean-up drive" }
+  ]
+}
