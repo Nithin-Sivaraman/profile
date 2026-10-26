@@ -44,7 +44,14 @@ export function About({ data }: { data: ProfileData }) {
           <Reveal delay={0.05} className="glass rounded-3xl p-6">
             <div className="text-xs uppercase tracking-wider text-muted">Currently</div>
             <div className="mt-2 font-display text-lg font-semibold">{p.grade}</div>
-            {p.school && <div className="text-sm text-muted">{p.school}</div>}
+            {p.school &&
+              (p.schoolUrl ? (
+                <a href={p.schoolUrl} target="_blank" rel="noreferrer" className="text-sm text-muted underline-offset-4 hover:text-accent hover:underline">
+                  {p.school}
+                </a>
+              ) : (
+                <div className="text-sm text-muted">{p.school}</div>
+              ))}
           </Reveal>
         )}
         {p.funFacts.map((f, i) => (

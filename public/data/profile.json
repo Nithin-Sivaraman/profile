@@ -117,9 +117,10 @@
       "Musician & Community Volunteer"
     ],
     "location": "Rockaway, NJ",
-    "school": "The Academy for Math, Science, and Engineering",
+    "school": "The Academy for Math, Science, and Engineering at Morris Hills High School",
+    "schoolUrl": "https://mh.mhrd.org/",
     "grade": "Grade 12 · Math, Science & Engineering",
-    "bio": "My goal is to help create sustainable energy for the world and protect our planet, so that Earth is a better place for future generations. I'm a student at The Academy for Math, Science, and Engineering in Rockaway, New Jersey, and I plan to study nuclear engineering or physics because I see clean, reliable energy, including fusion, as one of the most important ways to get there. Working with a professor on simulations involving cubic boron nitride in fusion materials research has let me contribute to that goal beyond the classroom. In summer 2026, I completed Rutgers Honors Engineering eXperience (RHEx) and NC State University’s Young Investigators’ Summer Program in Nuclear Engineering. My preparation includes AP Physics C in mechanics and electricity and magnetism, AP Calculus BC, and practical experience designing assemblies in CAD and producing parts on CNC machines. I'm also interested in electrical and mechanical engineering as related paths for turning physics into real energy solutions. As founder and president of a community STEM club, I design hands-on lessons that connect science to things children can observe, because the next generation will carry this work forward. Alongside this work, I sing, play saxophone and flute, and contribute to my community through music and service.",
+    "bio": "My goal is to help create sustainable energy for the world and protect our planet, so that Earth is a better place for future generations. I'm a student at The Academy for Math, Science, and Engineering at Morris Hills High School in Rockaway, New Jersey, and I plan to study nuclear engineering or physics because I see clean, reliable energy, including fusion, as one of the most important ways to get there. Working with a professor on simulations involving cubic boron nitride in fusion materials research has let me contribute to that goal beyond the classroom. In summer 2026, I completed Rutgers Honors Engineering eXperience (RHEx) and NC State University’s Young Investigators’ Summer Program in Nuclear Engineering. My preparation includes AP Physics C in mechanics and electricity and magnetism, AP Calculus BC, and practical experience designing assemblies in CAD and producing parts on CNC machines. I'm also interested in electrical and mechanical engineering as related paths for turning physics into real energy solutions. As founder and president of a community STEM club, I design hands-on lessons that connect science to things children can observe, because the next generation will carry this work forward. Alongside this work, I sing, play saxophone and flute, and contribute to my community through music and service.",
     "funFacts": [
       "Mission: help create sustainable energy for the world and protect Earth for future generations.",
       "Research: working with a professor on simulations involving cubic boron nitride for fusion materials research.",
@@ -244,7 +245,7 @@
       "position": "2nd Place",
       "date": "2025",
       "organizer": "USBands",
-      "description": "Played saxophone in the marching band that earned second place in Group IV A at the 2025 USBands New Jersey State Championships. Participated throughout all four years of high school, rehearsing and performing coordinated music and movement with the ensemble.",
+      "description": "Played saxophone in the Morris Hills High School marching band that earned second place in Group IV A at the 2025 USBands New Jersey State Championships. Participated throughout all four years of high school, rehearsing and performing coordinated music and movement with the ensemble.",
       "tags": [
         "Marching band",
         "Saxophone"
@@ -420,7 +421,8 @@
   ],
   "education": [
     {
-      "institution": "The Academy for Math, Science, and Engineering · Rockaway, NJ",
+      "institution": "The Academy for Math, Science, and Engineering at Morris Hills High School · Rockaway, NJ",
+      "url": "https://mh.mhrd.org/",
       "program": "Grade 12 · Math, Science & Engineering",
       "period": "2023 – present",
       "highlights": [
@@ -525,7 +527,7 @@
     },
     {
       "src": "images/photos/music/marching-band-metlife.jpg",
-      "caption": "Marching band performance at MetLife Stadium."
+      "caption": "Morris Hills High School marching band performance at MetLife Stadium."
     },
     {
       "src": "images/photos/music/carnatic-singing.jpg",
@@ -541,7 +543,7 @@
     },
     {
       "src": "images/photos/music/marching-band-disney-parade.jpg",
-      "caption": "Marching in a parade at Walt Disney World with the high school band."
+      "caption": "Marching in a parade at Walt Disney World with the Morris Hills High School marching band."
     },
     {
       "src": "images/photos/music/ztm-holiday-team.jpg",

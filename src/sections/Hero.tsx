@@ -154,7 +154,14 @@ export function Hero({ data, onOpenAchievement, onSearch }: { data: ProfileData;
             )}
             {p.school && (
               <span className="inline-flex items-center gap-1.5 sm:ml-4">
-                <GraduationCap size={15} /> {p.school}
+                <GraduationCap size={15} />
+                {p.schoolUrl ? (
+                  <a href={p.schoolUrl} target="_blank" rel="noreferrer" className="underline-offset-4 hover:text-accent hover:underline">
+                    {p.school}
+                  </a>
+                ) : (
+                  p.school
+                )}
               </span>
             )}
           </div>

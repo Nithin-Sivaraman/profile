@@ -78,6 +78,7 @@ export const profileSchema = z.object({
     photo: z.string().optional(),
     location: z.string().optional(),
     school: z.string().optional(),
+    schoolUrl: z.string().optional(),
     grade: z.string().optional(),
     bio: z.string().default(""),
     funFacts: z.array(z.string()).default([]),
@@ -154,6 +155,7 @@ export const profileSchema = z.object({
     .array(
       z.object({
         institution: z.string(),
+        url: z.string().optional(),
         program: z.string().default(""),
         period: z.string(),
         score: z.string().optional(),

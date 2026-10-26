@@ -91,7 +91,14 @@ export function Journey({ data }: { data: ProfileData }) {
                 {e.score && <span className="bg-gradient rounded-full px-2.5 py-0.5 text-xs font-bold text-white">{e.score}</span>}
               </div>
               <div className="mt-1 text-sm text-muted">
-                {e.institution} · {e.period}
+                {e.url ? (
+                  <a href={e.url} target="_blank" rel="noreferrer" className="underline-offset-4 hover:text-accent hover:underline">
+                    {e.institution}
+                  </a>
+                ) : (
+                  e.institution
+                )}{" "}
+                · {e.period}
               </div>
               {e.highlights.length > 0 && (
                 <ul className="mt-3 space-y-1 text-sm">
