@@ -9,7 +9,8 @@ export function About({ data }: { data: ProfileData }) {
   return (
     <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
       <Reveal className="glass rounded-3xl p-7 sm:p-10">
-        <div className="flex flex-col gap-7 sm:flex-row sm:items-start sm:gap-8">
+        {/* Photo beside the bio only while this card is full width; in the two-column grid (lg+) it stacks above. */}
+        <div className="flex flex-col gap-7 sm:flex-row sm:items-start sm:gap-8 lg:flex-col">
           {photo && (
             <figure className="relative mx-auto w-52 shrink-0 sm:mx-0 sm:w-56">
               <div className="bg-gradient absolute -inset-1 rounded-[1.75rem] opacity-40 blur-lg" aria-hidden />
@@ -27,7 +28,7 @@ export function About({ data }: { data: ProfileData }) {
             </figure>
           )}
           <div className="min-w-0 flex-1">
-            <p className="font-display text-xl leading-relaxed sm:text-2xl">{p.bio}</p>
+            <p className="font-display text-lg leading-relaxed sm:text-xl">{p.bio}</p>
             {p.interests.length > 0 && (
               <div className="mt-8 flex flex-wrap gap-2">
                 {p.interests.map((i) => (
