@@ -58,14 +58,6 @@ export const profileSchema = z.object({
           tierPoints: z.partialRecord(z.enum(TIERS), z.number()).default({}),
         })
         .prefault({}),
-      auth: z
-        .object({
-          enabled: z.boolean().default(false),
-          provider: z.string().default("google"),
-          clientId: z.string().default(""),
-          allowedEmails: z.array(z.string()).default([]),
-        })
-        .prefault({}),
       footer: z.string().optional(),
     })
     .prefault({}),

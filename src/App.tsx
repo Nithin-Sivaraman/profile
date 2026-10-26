@@ -1,12 +1,8 @@
-import { AlertTriangle, Pencil, X } from "lucide-react";
-import { lazy, Suspense, useEffect, useState } from "react";
+import { AlertTriangle } from "lucide-react";
+import { useEffect, useState } from "react";
 import { useProfile } from "./lib/data";
 import { Portfolio } from "./Portfolio";
 import { ProjectPage } from "./ProjectPage";
-import { portfolioUrl } from "./lib/data";
-
-const Studio = lazy(() => import("./Studio").then((m) => ({ default: m.Studio })));
-const AuthGate = lazy(() => import("./components/AuthGate").then((m) => ({ default: m.AuthGate })));
 
 const THEME_KEY = "talentfolio:theme";
 
@@ -52,8 +48,7 @@ function useTheme(preferred: "dark" | "light" | "auto" | undefined) {
 
 export default function App() {
   const route = useHashRoute();
-  const isDraft = new URLSearchParams(location.search).has("draft");
-  const state = useProfile(isDraft);
+  const state = useProfile();
   const [theme, toggleTheme] = useTheme(state.status === "ready" ? state.data.site.theme.mode : undefined);
 
   useEffect(() => {
@@ -62,13 +57,6 @@ export default function App() {
     root.setProperty("--accent", state.data.site.theme.accent);
     root.setProperty("--accent2", state.data.site.theme.accent2);
   }, [state]);
-
-  if (route === "/studio")
-    return (
-      <Suspense fallback={null}>
-        <AuthGate>{(session, signOut) => <Studio session={session} onSignOut={signOut} />}</AuthGate>
-      </Suspense>
-    );
 
   if (state.status === "loading") {
     return (
@@ -91,35 +79,13 @@ export default function App() {
               <li key={e}>• {e}</li>
             ))}
           </ul>
-          <a href="#/studio" className="bg-gradient mt-6 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white">
-            <Pencil size={14} /> Open Studio to fix it
-          </a>
         </div>
       </div>
     );
   }
 
-  const banner = isDraft ? (
-    <div className="screen-only fixed inset-x-0 bottom-4 z-50 flex justify-center px-4">
-      <div className="glass flex items-center gap-3 rounded-full bg-bg-soft py-2 pl-4 pr-2 text-xs shadow-xl">
-        <span className="h-2 w-2 animate-pulse rounded-full bg-amber-400" />
-        Previewing your Studio draft
-        <a href="#/studio" className="bg-gradient rounded-full px-3 py-1.5 font-semibold text-white">
-          Back to Studio
-        </a>
-        <button
-          aria-label="Exit preview"
-          onClick={() => (location.href = portfolioUrl(false))}
-          className="rounded-full p-1.5 hover:bg-line"
-        >
-          <X size={14} />
-        </button>
-      </div>
-    </div>
-  ) : null;
-
   if (route.startsWith("/projects/"))
     return <ProjectPage data={state.data} slug={decodeURIComponent(route.slice("/projects/".length))} theme={theme} onToggleTheme={toggleTheme} />;
 
-  return <Portfolio data={state.data} theme={theme} onToggleTheme={toggleTheme} banner={banner} />;
+  return <Portfolio data={state.data} theme={theme} onToggleTheme={toggleTheme} />;
 }

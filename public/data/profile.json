@@ -96,14 +96,6 @@
     "gamification": {
       "enabled": false
     },
-    "auth": {
-      "enabled": true,
-      "provider": "google",
-      "clientId": "",
-      "allowedEmails": [
-        "saka.admin@gmail.com"
-      ]
-    },
     "footer": "Working toward sustainable energy for a healthier planet · Research, design, music, and service"
   },
   "profile": {

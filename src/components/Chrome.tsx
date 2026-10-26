@@ -1,5 +1,5 @@
 import { AnimatePresence, motion, useScroll, useSpring } from "framer-motion";
-import { Award, Command, FolderKanban, Hash, Lock, Menu, Moon, Pencil, Search, Sun, Trophy, X, Zap } from "lucide-react";
+import { Award, Command, FolderKanban, Hash, Menu, Moon, Search, Sun, Trophy, X, Zap } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Achievement, ProfileData } from "../lib/schema";
 import { projectHref } from "../lib/schema";
@@ -98,9 +98,6 @@ export function Nav({
             <button onClick={onToggleTheme} className="rounded-full p-2 text-muted hover:bg-line hover:text-fg" aria-label="Toggle theme">
               {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
             </button>
-            <a href="#/studio" className="bg-gradient hidden items-center gap-1.5 rounded-full px-4 py-2 text-xs font-semibold text-white sm:inline-flex" title="Edit this portfolio">
-              {data.site.auth.enabled ? <Lock size={13} /> : <Pencil size={13} />} Studio
-            </a>
             <button onClick={() => setOpen(!open)} className="rounded-full p-2 xl:hidden" aria-label="Menu">
               {open ? <X size={18} /> : <Menu size={18} />}
             </button>
@@ -119,9 +116,6 @@ export function Nav({
                   {s.title}
                 </a>
               ))}
-              <a href="#/studio" className="col-span-2 rounded-xl px-3 py-2.5 text-sm font-semibold text-accent hover:bg-line">
-                ✏️ Open Studio (edit content)
-              </a>
             </motion.div>
           )}
         </AnimatePresence>

@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { formatIssues, profileSchema, type ProfileData } from "./schema";
 
-export const DRAFT_KEY = "talentfolio:draft";
-
 export type LoadState =
   | { status: "loading" }
   | { status: "ready"; data: ProfileData; source: string; raw: unknown }
@@ -20,16 +18,7 @@ export function profileSource() {
   return `data/${safe}.json`;
 }
 
-export function readDraft(): unknown | null {
-  try {
-    const s = localStorage.getItem(DRAFT_KEY);
-    return s ? JSON.parse(s) : null;
-  } catch {
-    return null;
-  }
-}
-
-export function useProfile(preferDraft: boolean): LoadState {
+export function useProfile(): LoadState {
   const [state, setState] = useState<LoadState>({ status: "loading" });
 
   useEffect(() => {
@@ -40,12 +29,6 @@ export function useProfile(preferDraft: boolean): LoadState {
       if (cancelled) return;
       setState(r.ok ? { status: "ready", data: r.data, source: src, raw } : { status: "error", source: src, errors: r.errors });
     };
-
-    const draft = preferDraft ? readDraft() : null;
-    if (draft) {
-      finish(draft, "Studio draft (this browser only)");
-      return;
-    }
 
     fetch(source, { cache: "no-cache" })
       .then((res) => {
@@ -59,16 +42,7 @@ export function useProfile(preferDraft: boolean): LoadState {
     return () => {
       cancelled = true;
     };
-  }, [preferDraft]);
+  }, []);
 
   return state;
-}
-
-/** Build a URL with ?draft=1 toggled, keeping any ?profile=… */
-export function portfolioUrl(draft: boolean) {
-  const params = new URLSearchParams(location.search);
-  if (draft) params.set("draft", "1");
-  else params.delete("draft");
-  const qs = params.toString();
-  return `${location.pathname}${qs ? `?${qs}` : ""}`;
 }

@@ -28,7 +28,7 @@ function hasContent(id: SectionId, d: ProfileData): boolean {
   }
 }
 
-export function Portfolio({ data, theme, onToggleTheme, banner }: { data: ProfileData; theme: "dark" | "light"; onToggleTheme: () => void; banner?: ReactNode }) {
+export function Portfolio({ data, theme, onToggleTheme }: { data: ProfileData; theme: "dark" | "light"; onToggleTheme: () => void }) {
   const [palette, setPalette] = useState(false);
   const [detail, setDetail] = useState<Achievement | null>(null);
   const sections = useMemo(() => resolveSections(data).filter((s) => hasContent(s.id, data)), [data]);
@@ -82,7 +82,6 @@ export function Portfolio({ data, theme, onToggleTheme, banner }: { data: Profil
     <>
       <div className="screen-only grain min-h-screen overflow-x-clip">
         <Aurora />
-        {banner}
         <Nav data={data} sections={sections} theme={theme} onToggleTheme={onToggleTheme} onSearch={() => setPalette(true)} />
         <main>
           <Hero data={data} onOpenAchievement={openAchievement} onSearch={() => setPalette(true)} />
