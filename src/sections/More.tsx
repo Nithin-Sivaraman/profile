@@ -80,14 +80,14 @@ export function Journey({ data }: { data: ProfileData }) {
   return (
     <div className="grid gap-8 lg:grid-cols-2">
       <div>
-        <h3 className="mb-5 flex items-center gap-2 font-display text-lg font-semibold">
-          <GraduationCap size={20} className="text-accent" /> Education
+        <h3 className="mb-6 flex items-center gap-3 font-display text-2xl font-bold sm:text-3xl">
+          <GraduationCap size={30} className="shrink-0 text-accent" /> Education
         </h3>
         <div className="space-y-4">
           {data.education.map((e, i) => (
             <Reveal key={e.program + e.period} delay={i * 0.05} className="glass rounded-2xl p-5">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <div className="font-display font-semibold">{e.program}</div>
+                <div className="font-display text-xl font-semibold leading-snug">{e.program}</div>
                 {e.score && <span className="bg-gradient rounded-full px-2.5 py-0.5 text-xs font-bold text-white">{e.score}</span>}
               </div>
               <div className="mt-1 text-sm text-muted">
@@ -114,8 +114,8 @@ export function Journey({ data }: { data: ProfileData }) {
         </div>
       </div>
       <div>
-        <h3 className="mb-5 flex items-center gap-2 font-display text-lg font-semibold">
-          <Briefcase size={20} className="text-accent" /> Leadership & service
+        <h3 className="mb-6 flex items-center gap-3 font-display text-2xl font-bold sm:text-3xl">
+          <Briefcase size={30} className="shrink-0 text-accent" /> Leadership & service
         </h3>
         <div className="relative space-y-4 border-l border-line pl-6">
           {data.activities.map((a, i) => (
@@ -124,7 +124,7 @@ export function Journey({ data }: { data: ProfileData }) {
               <div className="text-xs uppercase tracking-wider text-accent">
                 {a.type} · {a.period}
               </div>
-              <div className="mt-1 font-display font-semibold">{a.role}</div>
+              <div className="mt-1 font-display text-xl font-semibold leading-snug">{a.role}</div>
               <div className="text-sm text-muted">{a.organization}</div>
               {a.description && <p className="mt-2 text-sm">{a.description}</p>}
             </Reveal>
