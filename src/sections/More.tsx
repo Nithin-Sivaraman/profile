@@ -63,7 +63,7 @@ export function Certifications({ data }: { data: ProfileData }) {
                 <div className="mt-1 text-sm text-muted">
                   {c.issuer} · {formatDate(c.date)}
                 </div>
-                {c.credentialId && <div className="mt-2 font-mono text-[11px] text-muted">ID: {c.credentialId}</div>}
+                {c.credentialId && <div className="mt-2 font-mono text-[13px] text-muted">ID: {c.credentialId}</div>}
               </div>
               {c.url && <ArrowUpRight size={16} className="shrink-0 text-muted group-hover:text-accent" />}
             </Tag>

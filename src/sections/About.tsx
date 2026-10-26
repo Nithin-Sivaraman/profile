@@ -21,7 +21,7 @@ export function About({ data }: { data: ProfileData }) {
                 className="relative aspect-[3/4] w-full rounded-3xl object-cover shadow-xl"
               />
               {p.location && (
-                <figcaption className="glass absolute -bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full px-3 py-1 text-[11px] font-medium">
+                <figcaption className="glass absolute -bottom-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full px-3 py-1 text-[13px] font-medium">
                   {p.location}
                 </figcaption>
               )}

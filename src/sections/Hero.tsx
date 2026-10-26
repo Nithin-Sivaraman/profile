@@ -69,7 +69,7 @@ function TrophyStack({ items, data, onOpen }: { items: Achievement[]; data: Prof
               <div className="absolute inset-x-0 top-0 h-1" style={{ background: c.color }} />
               <div className="flex items-start justify-between">
                 <span className="text-4xl">{medal === "gold" ? "🥇" : medal === "silver" ? "🥈" : medal === "bronze" ? "🥉" : c.emoji}</span>
-                <span className="rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider" style={{ background: `${c.color}22`, color: c.color }}>
+                <span className="rounded-full px-2.5 py-1 text-[12px] font-bold uppercase tracking-wider" style={{ background: `${c.color}22`, color: c.color }}>
                   {TIER_LABEL[a.tier]}
                 </span>
               </div>

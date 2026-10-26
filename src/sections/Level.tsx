@@ -98,7 +98,7 @@ export function Level({ data }: { data: ProfileData }) {
             >
               <span className={`text-3xl ${b.unlocked ? "" : "grayscale"}`}>{b.emoji}</span>
               <span className="mt-2 text-xs font-semibold">{b.name}</span>
-              <span className="mt-1 text-[10px] leading-tight text-muted">{b.hint}</span>
+              <span className="mt-1 text-[12px] leading-tight text-muted">{b.hint}</span>
               {!b.unlocked && <Lock size={12} className="absolute right-2 top-2 text-muted" />}
             </motion.div>
           ))}

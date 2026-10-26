@@ -25,7 +25,7 @@ function Card({ a, data, onOpen }: { a: Achievement; data: ProfileData; onOpen: 
       <div className="relative h-36 w-full overflow-hidden">
         <Cover color={c.color} emoji={c.emoji} image={a.image} />
         {medal && <span className="absolute left-4 top-4 text-3xl drop-shadow">{MEDAL[medal]}</span>}
-        <span className="absolute right-4 top-4 rounded-full bg-black/40 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white backdrop-blur">
+        <span className="absolute right-4 top-4 rounded-full bg-black/40 px-2.5 py-1 text-[12px] font-bold uppercase tracking-wider text-white backdrop-blur">
           {TIER_LABEL[a.tier]}
         </span>
       </div>

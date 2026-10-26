@@ -158,7 +158,7 @@ export function Studio({ session, onSignOut }: { session?: Session | null; onSig
 
       <div className="mx-auto grid max-w-7xl gap-6 px-4 py-6 lg:grid-cols-[1fr_360px]">
         {/* Editor */}
-        <div className="flex min-h-[70vh] overflow-hidden rounded-2xl border border-line bg-bg-soft font-mono text-[13px] leading-6">
+        <div className="flex min-h-[70vh] overflow-hidden rounded-2xl border border-line bg-bg-soft font-mono text-[15px] leading-6">
           <div aria-hidden className="select-none border-r border-line px-3 py-4 text-right text-muted/60">
             {Array.from({ length: lines }, (_, i) => (
               <div key={i}>{i + 1}</div>
@@ -216,15 +216,15 @@ export function Studio({ session, onSignOut }: { session?: Session | null; onSig
               <div className="mt-3 grid grid-cols-3 gap-2 text-center">
                 <div className="rounded-xl bg-bg p-2">
                   <div className="font-display text-xl font-bold">{stats.n}</div>
-                  <div className="text-[10px] uppercase text-muted">Trophies</div>
+                  <div className="text-[12px] uppercase text-muted">Trophies</div>
                 </div>
                 <div className="rounded-xl bg-bg p-2">
                   <div className="font-display text-xl font-bold">{stats.xp}</div>
-                  <div className="text-[10px] uppercase text-muted">XP</div>
+                  <div className="text-[12px] uppercase text-muted">XP</div>
                 </div>
                 <div className="rounded-xl bg-bg p-2">
                   <div className="font-display text-xl font-bold">{stats.level.level}</div>
-                  <div className="text-[10px] uppercase text-muted">Level</div>
+                  <div className="text-[12px] uppercase text-muted">Level</div>
                 </div>
               </div>
             )}

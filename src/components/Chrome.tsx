@@ -216,7 +216,7 @@ export function CommandPalette({
                 placeholder="Search achievements, skills, projects…"
                 className="h-14 flex-1 bg-transparent outline-none placeholder:text-muted"
               />
-              <kbd className="rounded border border-line px-1.5 py-0.5 text-[10px] text-muted">ESC</kbd>
+              <kbd className="rounded border border-line px-1.5 py-0.5 text-[12px] text-muted">ESC</kbd>
             </div>
             <ul className="max-h-[50vh] overflow-y-auto p-2">
               {hits.length === 0 && <li className="p-6 text-center text-sm text-muted">Nothing found for “{q}”</li>}
@@ -232,12 +232,12 @@ export function CommandPalette({
                       <div className="truncate text-sm font-medium">{h.title}</div>
                       <div className="truncate text-xs text-muted">{h.sub}</div>
                     </div>
-                    <span className="text-[10px] uppercase tracking-wider text-muted">{h.kind}</span>
+                    <span className="text-[12px] uppercase tracking-wider text-muted">{h.kind}</span>
                   </button>
                 </li>
               ))}
             </ul>
-            <div className="flex items-center gap-3 border-t border-line px-4 py-2 text-[11px] text-muted">
+            <div className="flex items-center gap-3 border-t border-line px-4 py-2 text-[13px] text-muted">
               <Command size={12} /> ↑↓ to move · ↵ to open
             </div>
           </motion.div>
