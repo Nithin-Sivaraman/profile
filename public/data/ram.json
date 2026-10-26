@@ -28,7 +28,7 @@
       "enabled": true,
       "provider": "google",
       "clientId": "",
-      "allowedEmails": ["saka.admin@gmail.com"]
+      "allowedEmails": []
     },
     "footer": "Built with Talentfolio · every achievement lives in one JSON file"
   },
@@ -50,7 +50,6 @@
     ],
     "interests": ["Robotics", "Astronomy", "Algorithms", "Piano", "Badminton", "Public speaking"],
     "availability": "Open to summer research internships · 2027",
-    "email": "saka.admin@gmail.com",
     "contacts": [
       { "type": "github", "label": "GitHub", "url": "https://github.com/" },
       { "type": "linkedin", "label": "LinkedIn", "url": "https://linkedin.com/" },
