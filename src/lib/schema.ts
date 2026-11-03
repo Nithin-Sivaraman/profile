@@ -161,6 +161,7 @@ export const profileSchema = z.object({
       z.object({
         role: z.string(),
         organization: z.string(),
+        url: z.string().optional(),
         period: z.string(),
         type: z.string().default("Activity"),
         description: z.string().default(""),

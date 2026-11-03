@@ -366,6 +366,12 @@
         "Teaching",
         "Outreach"
       ],
+      "links": [
+        {
+          "label": "STEM club page",
+          "url": "https://lake-parsippany.org/page-18385"
+        }
+      ],
       "featured": true,
       "image": "images/photos/stem/cartesian-diver-lesson.jpg",
       "photos": [
@@ -448,6 +454,7 @@
     {
       "role": "Founder & President, STEM Club",
       "organization": "Local community",
+      "url": "https://lake-parsippany.org/page-18385",
       "period": "Grades 11–12",
       "type": "Leadership",
       "description": "Founded and lead a community STEM club for children. Design hands-on lessons that connect scientific concepts with observable experiences and encourage students to explore STEM."

@@ -125,7 +125,15 @@ export function Journey({ data }: { data: ProfileData }) {
                 {a.type} · {a.period}
               </div>
               <div className="mt-1 font-display text-xl font-semibold leading-snug">{a.role}</div>
-              <div className="text-sm text-muted">{a.organization}</div>
+              <div className="text-sm text-muted">
+                {a.url ? (
+                  <a href={a.url} target="_blank" rel="noreferrer" className="underline-offset-4 hover:text-accent hover:underline">
+                    {a.organization}
+                  </a>
+                ) : (
+                  a.organization
+                )}
+              </div>
               {a.description && <p className="mt-2 text-sm">{a.description}</p>}
             </Reveal>
           ))}
