@@ -127,6 +127,11 @@ export const profileSchema = z.object({
         /** "What I did": shown as a list on the detail page. */
         contributions: z.array(z.string()).default([]),
         photos: z.array(z.object({ src: z.string(), caption: z.string().default("") })).default([]),
+        videos: z.array(z.object({ src: z.string(), poster: z.string().optional(), caption: z.string().default("") })).default([]),
+        /** Shown as a highlighted card at the top of the detail page. */
+        presentations: z
+          .array(z.object({ title: z.string(), description: z.string().default(""), pdf: z.string(), pptx: z.string().optional(), cover: z.string().optional() }))
+          .default([]),
       }),
     )
     .default([]),

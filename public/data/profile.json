@@ -112,10 +112,10 @@
     "school": "The Academy for Math, Science, and Engineering at Morris Hills High School",
     "schoolUrl": "https://mh.mhrd.org/",
     "grade": "Grade 12 · Math, Science & Engineering",
-    "bio": "My goal is to help create sustainable energy for the world and protect our planet, so that Earth is a better place for future generations. I'm a student at The Academy for Math, Science, and Engineering at Morris Hills High School in Rockaway, New Jersey, and I plan to study nuclear engineering or physics because I see clean, reliable energy, including fusion, as one of the most important ways to get there. Working with a professor on simulations involving cubic boron nitride in fusion materials research has let me contribute to that goal beyond the classroom. In summer 2026, I completed Rutgers Honors Engineering eXperience (RHEx) and NC State University’s Young Investigators’ Summer Program in Nuclear Engineering. My preparation includes AP Physics C in mechanics and electricity and magnetism, AP Calculus BC, and practical experience designing assemblies in CAD and producing parts on CNC machines. I'm also interested in electrical and mechanical engineering as related paths for turning physics into real energy solutions. As founder and president of a community STEM club, I design hands-on lessons that connect science to things children can observe, because the next generation will carry this work forward. Alongside this work, I sing, play saxophone and flute, and contribute to my community through music and service.",
+    "bio": "My goal is to help create sustainable energy for the world and protect our planet, so that Earth is a better place for future generations. I'm a student at The Academy for Math, Science, and Engineering at Morris Hills High School in Rockaway, New Jersey, and I plan to study nuclear engineering or physics because I see clean, reliable energy, including fusion, as one of the most important ways to get there. Working with Dr. Benjamin Beeler of NC State on simulations involving cubic boron nitride in fusion materials research, an ongoing project through summer 2027, has let me contribute to that goal beyond the classroom. In summer 2026, I completed Rutgers Honors Engineering eXperience (RHEx) and NC State University’s Young Investigators’ Summer Program in Nuclear Engineering, and attended the University of Michigan’s Zap It program on laser engineering and plasma science. My preparation includes AP Physics C in mechanics and electricity and magnetism, AP Calculus BC, and practical experience designing assemblies in CAD and producing parts on CNC machines. I'm also interested in electrical and mechanical engineering as related paths for turning physics into real energy solutions. As founder and president of a community STEM club, I design hands-on lessons that connect science to things children can observe, because the next generation will carry this work forward. Alongside this work, I sing, play saxophone and flute, and contribute to my community through music and service.",
     "funFacts": [
       "Mission: help create sustainable energy for the world and protect Earth for future generations.",
-      "Research: working with a professor on simulations involving cubic boron nitride for fusion materials research.",
+      "Research: working with Dr. Benjamin Beeler of NC State on simulations involving cubic boron nitride for fusion materials research, through summer 2027.",
       "Summer 2026: earned certificates of completion for NC State’s nuclear engineering summer program and Rutgers Honors Engineering eXperience (RHEx).",
       "Engineering: led catapult design and calibration as an event captain; one team catapult earned third place for accuracy at the 2025 NJAAPT Physics Olympics.",
       "Service: helped raise more than $1,000 in toys for St. Joseph's Children's Hospital through Zooming thru Music.",
@@ -249,14 +249,54 @@
     {
       "title": "Fusion materials: cubic boron nitride",
       "emoji": "⚛️",
-      "summary": "Research internship exploring cubic boron nitride through simulation for fusion energy.",
-      "description": "Working with a professor on simulations involving cubic boron nitride in fusion materials research. Fusion could provide clean, abundant energy, but it needs materials that can withstand extreme conditions. This ongoing internship connects my goal of sustainable energy for the world with materials science and computational investigation.",
+      "summary": "Ongoing research with Dr. Benjamin Beeler of NC State on simulations of cubic boron nitride for fusion, continuing through the end of summer 2027.",
+      "description": "Working with Dr. Benjamin Beeler of NC State’s Computational Nuclear Materials Science Group on simulations involving cubic boron nitride in fusion materials research. Fusion could provide clean, abundant energy, but it needs materials that can withstand extreme conditions. This ongoing project runs through the end of summer 2027 and connects my goal of sustainable energy for the world with materials science and computational investigation.",
       "tags": [
         "Simulation",
         "Materials science",
-        "Research"
+        "Fusion energy",
+        "Research",
+        "Ongoing"
       ],
-      "featured": true
+      "featured": true,
+      "id": "fusion-materials-cubic-boron-nitride",
+      "date": "Ongoing · through summer 2027",
+      "image": "images/photos/fusion/cbn-cover.svg",
+      "contributions": [
+        "Research with Dr. Beeler: working with Dr. Benjamin Beeler on simulations involving cubic boron nitride (c-BN) in fusion materials research. I am currently reading the research literature to understand c-BN, and this project continues through the end of summer 2027.",
+        "The materials challenge: learned from Fedrigucci et al. (2024) that the divertor faces the harshest conditions in a fusion reactor, with neutron and plasma bombardment and extreme heat. Tungsten, the choice for ITER, still has drawbacks such as cracking and erosion.",
+        "Why c-BN is a candidate: the same study includes c-BN among its leading plasma-facing material candidates, citing boron nitride’s chemical and thermal stability, high thermal conductivity, and resistance to thermal shocks.",
+        "Open questions: the study highlights what still needs testing, including how neutron damage affects heat conduction at high temperatures, how well c-BN resists sputtering, and how much tritium it could retain.",
+        "How c-BN is simulated: studied Moon et al. (2003), which used molecular dynamics with a Tersoff interatomic potential to calculate c-BN’s structural, elastic, and thermal properties. Its results matched experiments closely, within 0.17% for the lattice constant."
+      ],
+      "photos": [
+        {
+          "src": "images/photos/fusion/cbn-unit-cell.svg",
+          "caption": "Diagram of the c-BN unit cell, showing how boron and nitrogen atoms bond."
+        },
+        {
+          "src": "images/photos/fusion/plasma-facing-material.svg",
+          "caption": "Simplified diagram of why plasma-facing materials matter in a fusion reactor."
+        },
+        {
+          "src": "images/photos/fusion/cbn-crystal-lattice.svg",
+          "caption": "Diagram of the repeating c-BN crystal lattice."
+        }
+      ],
+      "links": [
+        {
+          "label": "Dr. Beeler’s research group",
+          "url": "https://ne.ncsu.edu/cnmsg/members/"
+        },
+        {
+          "label": "Fedrigucci et al. (2024)",
+          "url": "https://doi.org/10.1103/PRXEnergy.3.043002"
+        },
+        {
+          "label": "Moon et al. (2003)",
+          "url": "https://doi.org/10.1016/S0921-4526(03)00299-0"
+        }
+      ]
     },
     {
       "title": "NC State: nuclear engineering summer program",
@@ -344,6 +384,53 @@
       ]
     },
     {
+      "id": "umich-zap-it",
+      "title": "University of Michigan: Zap It program",
+      "emoji": "🔬",
+      "summary": "Attended the University of Michigan’s Zap It program on laser engineering and plasma science in summer 2026.",
+      "description": "Attended the Zap It program at the University of Michigan in summer 2026. The program covered laser engineering and plasma science, with hands-on experience at the ZEUS Facility, the home of the most powerful laser in the U.S. This experience complements my fusion materials research and my goal of sustainable energy for the world.",
+      "date": "Summer 2026",
+      "tags": [
+        "Laser engineering",
+        "Plasma science",
+        "University of Michigan",
+        "Summer program · 2026"
+      ],
+      "featured": true,
+      "contributions": [
+        "Learned about laser engineering and plasma science.",
+        "Gained hands-on experience at the University of Michigan’s ZEUS Facility.",
+        "Explored the home of the most powerful laser in the U.S."
+      ],
+      "image": "images/photos/zap-it/syringe-plasma-cover.jpg",
+      "photos": [
+        {
+          "src": "images/photos/zap-it/syringe-plasma.jpg",
+          "caption": "Purple plasma glowing around an electrode inside a syringe."
+        },
+        {
+          "src": "images/photos/zap-it/plasma-setup.jpg",
+          "caption": "Plasma setup with a syringe connected to a vacuum pump."
+        },
+        {
+          "src": "images/photos/zap-it/hologram.jpg",
+          "caption": "A hologram on a holographic plate holder, lit by red laser light."
+        },
+        {
+          "src": "images/photos/zap-it/vacuum-chamber.jpg",
+          "caption": "Vacuum chambers and laser optics in the lab."
+        },
+        {
+          "src": "images/photos/zap-it/syringe-plasma-2.jpg",
+          "caption": "The plasma glow with the room lights lowered."
+        },
+        {
+          "src": "images/photos/zap-it/syringe-plasma-3.jpg",
+          "caption": "A closer look at the plasma around the electrode."
+        }
+      ]
+    },
+    {
       "title": "Catapult engineering & calibration",
       "emoji": "🎯",
       "summary": "Event captain for a team whose catapult earned third place for accuracy.",
@@ -354,7 +441,35 @@
         "Calibration",
         "Team lead"
       ],
-      "featured": true
+      "featured": true,
+      "image": "images/photos/catapult-physicsclub/catapult-cover.jpg",
+      "contributions": [
+        "Event challenge: built a catapult to hit distances of 2 cm and 3 cm as accurately as possible, limited to rubber bands, tape, string, and a manila folder.",
+        "Accuracy: used string to hold the catapult at specific distances to be as accurate as we could, and limited outside factors from affecting it as much as possible."
+      ],
+      "photos": [
+        {
+          "src": "images/photos/catapult-physicsclub/catapult.jpg",
+          "caption": "The catapult, built from a manila folder, tape, and rubber bands."
+        }
+      ],
+      "videos": [
+        {
+          "src": "images/photos/catapult-physicsclub/table-landing-zone-2.mp4",
+          "poster": "images/photos/catapult-physicsclub/table-landing-zone-2.jpg",
+          "caption": "Landing zone on a lab table, marked with measuring sticks and tape."
+        },
+        {
+          "src": "images/photos/catapult-physicsclub/table-landing-zone-1.mp4",
+          "poster": "images/photos/catapult-physicsclub/table-landing-zone-1.jpg",
+          "caption": "A second recording of the marked lab table."
+        },
+        {
+          "src": "images/photos/catapult-physicsclub/floor-distance-setup.mp4",
+          "poster": "images/photos/catapult-physicsclub/floor-distance-setup.jpg",
+          "caption": "Measuring sticks laid end to end on the floor."
+        }
+      ]
     },
     {
       "title": "Community STEM: learning by doing",
@@ -362,6 +477,7 @@
       "summary": "Founded a club and designed hands-on science lessons for children.",
       "description": "Founded and lead a community STEM club that introduces children to science through hands-on experiences. I design lessons that connect scientific concepts with observable phenomena, giving students a concrete way to engage with what they are learning. Inspiring young scientists matters to me because protecting the planet will take the next generation's curiosity and ideas too.",
       "tags": [
+        "Clean energy",
         "Curriculum",
         "Teaching",
         "Outreach"
@@ -370,6 +486,10 @@
         {
           "label": "STEM club page",
           "url": "https://lake-parsippany.org/page-18385"
+        },
+        {
+          "label": "All STEM club presentations",
+          "url": "https://drive.google.com/drive/folders/1w4bna_VaP-Vjwa-TX96AscOcDwRAEX-a?usp=sharing"
         }
       ],
       "featured": true,
@@ -391,6 +511,23 @@
           "src": "images/photos/stem/experiment-with-water.jpg",
           "caption": "Club leaders after an \"Experiment with Water!\" session."
         }
+      ],
+      "contributions": [
+        "Earth Day clean energy lesson: presented the STEM club's clean energy lesson at the Parsippany library to help spread awareness of clean energy on a day meant to raise awareness and protect our Earth.",
+        "Hands-on experiments: used easily accessible materials to design experiments kids can perform easily, and connected each one to real-world ideas so they could see why each concept matters in the outside world.",
+        "Solar energy: explained how solar panels turn sunlight into electricity, where solar power is used, from homes and schools to electric cars and the International Space Station, and how better batteries, solar windows, and flexible panels are improving it.",
+        "Wind energy: showed how the Sun's uneven heating of Earth creates wind, why wind curves because of the Coriolis effect, and how turbines turn moving air into electricity without polluting the air.",
+        "Nuclear energy: introduced fission and fusion, then weighed nuclear power's reliability and energy density against its radioactive waste and high building costs.",
+        "Real-world challenges: discussed what scientists are still working on, including cloudy days and nights for solar, calm days for wind, and the cost, land, and recycling needs of clean energy."
+      ],
+      "presentations": [
+        {
+          "title": "Clean Energy",
+          "description": "Our Earth Day presentation at the Parsippany library, covering solar, wind, and nuclear energy.",
+          "pdf": "docs/clean-energy.pdf",
+          "pptx": "docs/clean-energy.pptx",
+          "cover": "images/photos/stem/clean-energy-cover.jpg"
+        }
       ]
     },
     {
@@ -401,7 +538,51 @@
       "tags": [
         "Onshape",
         "AutoCAD",
-        "CNC"
+        "CNC",
+        "Laser engraving"
+      ],
+      "image": "images/photos/cad-cnc/light-up-sign-cover.jpg",
+      "contributions": [
+        "Light-up sign: designed and built a light-up sign from scratch, made a circuit within the board, cut out the block, and laser engraved the design.",
+        "Custom picture frame: made a custom picture frame meant to mimic a Nintendo Switch, with a parts list and dimension drawings so others can replicate it."
+      ],
+      "photos": [
+        {
+          "src": "images/photos/cad-cnc/light-up-sign.jpg",
+          "caption": "Light-up sign with a laser-engraved design and a wooden base."
+        },
+        {
+          "src": "images/photos/cad-cnc/switch-frame-top.jpg",
+          "caption": "The Nintendo Switch-style picture frame, cut from wood."
+        },
+        {
+          "src": "images/photos/cad-cnc/switch-frame-window.jpg",
+          "caption": "The finished picture frame on display."
+        },
+        {
+          "src": "images/photos/cad-cnc/switch-frame-drawing.png",
+          "caption": "Dimension drawing of the picture frame's parts, so others can build it."
+        },
+        {
+          "src": "images/photos/cad-cnc/robot-car-top.jpg",
+          "caption": "Top view of a wired robot car build."
+        },
+        {
+          "src": "images/photos/cad-cnc/robot-car-front.jpg",
+          "caption": "Front view of the robot car and its breadboard wiring."
+        }
+      ],
+      "videos": [
+        {
+          "src": "images/photos/cad-cnc/light-up-sign-demo.mp4",
+          "poster": "images/photos/cad-cnc/light-up-sign-demo.jpg",
+          "caption": "The light-up sign glowing."
+        },
+        {
+          "src": "images/photos/cad-cnc/led-circuit-test.mp4",
+          "poster": "images/photos/cad-cnc/led-circuit-test.jpg",
+          "caption": "An LED strip running from a handmade circuit board."
+        }
       ]
     }
   ],
@@ -427,6 +608,15 @@
         "AP Calculus BC",
         "AP Physics C: Mechanics",
         "AP Physics C: Electricity and Magnetism"
+      ]
+    },
+    {
+      "institution": "University of Michigan · ZEUS Facility",
+      "program": "Zap It Program",
+      "period": "Summer 2026",
+      "highlights": [
+        "Learned about laser engineering and plasma science.",
+        "Gained hands-on experience at the ZEUS Facility, home of the most powerful laser in the U.S."
       ]
     },
     {

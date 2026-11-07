@@ -31,6 +31,11 @@ export function Projects({ data }: { data: ProfileData }) {
                   <Chip key={t}>{t}</Chip>
                 ))}
               </div>
+              {p.presentations[0] && (
+                <span className="bg-gradient mt-4 inline-flex w-fit items-center rounded-full px-3 py-1 text-xs font-semibold text-white">
+                  Featured presentation: {p.presentations[0].title}
+                </span>
+              )}
               <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent">
                 View details <ArrowUpRight size={16} className="transition group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </span>

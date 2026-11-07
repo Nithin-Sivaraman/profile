@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowUpRight, Camera, ListChecks, Moon, Sun } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, Camera, Download, ListChecks, Moon, Presentation, Sun } from "lucide-react";
 import { useEffect } from "react";
 import type { ProfileData } from "./lib/schema";
 import { projectSlug } from "./lib/schema";
@@ -64,6 +64,35 @@ export function ProjectPage({ data, slug, theme, onToggleTheme }: { data: Profil
               </div>
             </Reveal>
 
+            {project.presentations.map((d) => (
+              <Reveal key={d.pdf}>
+                <section className="glow-border mt-8 grid gap-6 rounded-3xl p-6 sm:grid-cols-[1fr_1.2fr] sm:items-center sm:p-8">
+                  {d.cover && (
+                    <a href={d.pdf} target="_blank" rel="noreferrer" title="View slides">
+                      <img src={d.cover} alt={`${d.title} title slide`} loading="lazy" className="w-full rounded-2xl shadow-lg transition duration-500 hover:scale-[1.02]" />
+                    </a>
+                  )}
+                  <div>
+                    <span className="bg-gradient inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold text-white">
+                      <Presentation size={14} /> Featured presentation
+                    </span>
+                    <h2 className="mt-3 font-display text-2xl font-bold sm:text-3xl">{d.title}</h2>
+                    {d.description && <p className="mt-2 text-sm text-muted">{d.description}</p>}
+                    <div className="mt-5 flex flex-wrap gap-3">
+                      <a href={d.pdf} target="_blank" rel="noreferrer" className="bg-gradient inline-flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-semibold text-white">
+                        View slides <ArrowUpRight size={14} />
+                      </a>
+                      {d.pptx && (
+                        <a href={d.pptx} download className="glass inline-flex items-center gap-1.5 rounded-full px-5 py-2.5 text-sm font-semibold hover:text-accent">
+                          <Download size={14} /> Download PowerPoint
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                </section>
+              </Reveal>
+            ))}
+
             {project.description && (
               <Reveal>
                 <section className="mt-12">
@@ -116,6 +145,22 @@ export function ProjectPage({ data, slug, theme, onToggleTheme }: { data: Profil
                 )}
               </section>
             </Reveal>
+
+            {project.videos.length > 0 && (
+              <Reveal>
+                <section className="mt-12">
+                  <h2 className="font-display text-2xl font-semibold">Project videos</h2>
+                  <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                    {project.videos.map((v) => (
+                      <figure key={v.src} className="glass overflow-hidden rounded-2xl">
+                        <video src={v.src} poster={v.poster} controls muted loop playsInline preload="metadata" className="w-full" />
+                        {v.caption && <figcaption className="p-3 text-sm text-muted">{v.caption}</figcaption>}
+                      </figure>
+                    ))}
+                  </div>
+                </section>
+              </Reveal>
+            )}
 
             {project.links.length > 0 && (
               <div className="mt-12 flex flex-wrap gap-3">
